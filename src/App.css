@@ -951,7 +951,7 @@ body {
   -webkit-box-shadow: 3px 4px 10px -5px rgba(0,0,0,0.9);
   -moz-box-shadow: 3px 4px 10px -5px rgba(0,0,0,0.9);
   box-shadow: 3px 4px 10px -5px rgba(0,0,0,0.9);
-
+  cursor: pointer;
   background-color: #FAF3EE;
   
 }
