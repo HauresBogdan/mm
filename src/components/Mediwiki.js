@@ -54,7 +54,7 @@ function Mediwiki() {
       <section className="sec-wiki">
         <div className="mediwiki">
           <div className="meditation-wiki-reverse">
-            <div className={className("medi-info medi-info-l", { "translate-text": scrollPosition > 2032 })}>
+            <div className={className("medi-info medi-info-l", { "translate-text": scrollPosition > 2500 })}>
               <h1>Haide să medităm împreună 🧘🏻‍♂️</h1>
               <p>
                 În est meditația se folosea de mii de ani cu scopul de a ajunge la <strong>alte niveluri de conştiinţă</strong>.
