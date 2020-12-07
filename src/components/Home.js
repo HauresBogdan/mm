@@ -47,7 +47,7 @@ function Home() {
           <h1>Descoperă beneficile meditației!</h1>
           <p>Lasăte ghidat de un terapeut cu o experiență de 5 ani în practicarea terapiei ThetaHealing și începe să trăiești viața pe care o meriți.</p>
           <p></p>
-          <button className="violet-btn">Rezervă o ședința</button>
+          <button className="violet-btn">Rezervă o ședință</button>
         </div>
         <div className="img-div">
           <img className="main-img" src="heroimage2.png" alt="hero" onMouseOver={changeDiamond} onMouseLeave={returnDiamond} />
@@ -60,7 +60,7 @@ function Home() {
           <div className="sliding-img">
             <img src="1.jpg" alt="thetahealing" />
             <div className="mask"></div>
-            <p>SCHIMBĂ-ȚI CONVINGERILE LIMITATIVE DIN SUBCONSTIENT ÎN POSIBILITĂȚI INFINITE!</p>
+            <p>SCHIMBĂ-ȚI CONVINGERILE LIMITATIVE DIN SUBCONȘTIENT ÎN POSIBILITĂȚI INFINITE!</p>
           </div>
         </div>
       </section>

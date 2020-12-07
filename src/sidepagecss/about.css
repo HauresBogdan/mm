@@ -1,0 +1,258 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.about-banner {
+    background-color: #e7dbe5;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.98px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* .about-banner1 {
+    background-color: #e7dbe5;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.98px;
+    font-family: 'Cormorant Garamond', serif;
+} */
+
+
+
+.about-banner1 img {
+    height: 50px;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 100px;
+}
+
+
+.flex-this-a1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.right-flex-a1 {
+    max-width: 570px;
+}
+
+.about1 {
+    padding: 50px 0;
+    background: #faf4f9;
+
+}
+
+.about1 h2 {
+    margin-bottom: 15px;
+}
+
+.about1 p {
+    padding: 1em 0;
+    line-height: 1.7em;
+}
+
+.left-flex-a1 {
+    position: relative;
+    min-height: 700px;
+    width: 550px;
+}
+
+.img-lfa1-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: block;
+    -webkit-box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.37);
+    box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.37);
+}
+
+.img-lfa1-2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    display: block;
+
+    -webkit-box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.37);
+    box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.37);
+    cursor: pointer;
+
+}
+
+@media (max-width:1416px) {
+    .flex-this-a1 {
+        justify-content: center;
+    }
+
+    .right-flex-a1 {
+        margin-top: 30px;
+    }
+
+    .container {
+        padding: 0 5%;
+    }
+}
+
+@media (max-width:586px) {
+
+    .left-flex-a1 {
+        min-height: 110vw;
+    }
+
+    .img-lfa1-2 {
+        height: 100vw;
+    }
+
+    .img-lfa1-1 {
+        height: 100vw;
+    }
+
+}
+
+.about2 {
+    padding: 50px 0;
+    background: #faf4f9;
+
+}
+
+.about2 h3 {
+    margin-bottom: 10px;
+}
+
+.about2 p {
+    padding: 1em 0;
+    line-height: 1.7em;
+}
+
+.left-flex-a2 {    
+    max-width: 650px;
+}
+
+.right-flex-a2 {
+    background: url('../media/a2-2.jpg') no-repeat center;
+    background-size: contain;   
+    max-height: 650px;
+}
+
+
+
+
+.right-flex-a2 img {
+    -webkit-animation: 12s ease 0s normal forwards 1 fadein;
+    animation: 12s ease 0s normal forwards 1 fadein;
+    animation-iteration-count:infinite;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    50% { opacity:1; }
+    100% { opacity:0; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    50% { opacity:1; }
+    100% { opacity:0; }
+}
+
+
+.flex-this-a2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+
+}
+
+@media (max-width:1294px) {
+    .flex-this-a2 {
+        justify-content: center;
+    }
+
+    .right-flex-a2 {
+        margin-bottom: 50px;
+       
+    }
+
+    .container {
+        padding: 0 5%;
+    } 
+
+    .right-flex-a2 img {
+        
+        max-width: 87vw;
+    }
+}
+
+
+.about3 {
+   
+    background: #faf4f9;
+    text-align: center;
+
+}
+
+.slider-parent {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.about3 button {
+    margin-top: 20px;
+}
+
+.spiral1 {
+    height: 100px;
+}
+
+
+.spiral-parent {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.right-flex-a1 h2, .left-flex-a2 h3 {
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 20px;
+    font-size: 2.9em;
+    line-height: 65px;
+    font-weight: 300;
+}
+
+.right-flex-a1 p, .left-flex-a2 p {
+    line-height: 1.8;
+    letter-spacing: .35px;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-top: 10px;
+
+}
+
+.about-banner3 {
+    background-color: #e7dbe5;
+    text-align: center;
+    padding: 30px 0 25px 0;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.98px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+
