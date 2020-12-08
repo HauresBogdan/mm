@@ -2,10 +2,11 @@
 
 .about-banner {
     background-color: #e7dbe5;
+    color:#850F43;
     text-align: center;
     padding: 40px 0;
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 2.98px;
     font-family: 'Cormorant Garamond', serif;
@@ -151,8 +152,8 @@
 
 
 .right-flex-a2 img {
-    -webkit-animation: 12s ease 0s normal forwards 1 fadein;
-    animation: 12s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+    animation: 6s ease 0s normal forwards 1 fadein;
     animation-iteration-count:infinite;
 }
 
@@ -245,14 +246,18 @@
 
 .about-banner3 {
     background-color: #e7dbe5;
+    color:#850F43;
     text-align: center;
     padding: 30px 0 25px 0;
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 2.98px;
     font-family: 'Cormorant Garamond', serif;
 }
 
+.small-container2 {    
+    padding: 0 5%;
+}
 
 

@@ -56,7 +56,7 @@ function About() {
         </div>
       </section>
 
-      <p className="about-banner">Astazi pun timpul si experienta mea in serviciul tau.</p>
+      <p className="about-banner small-container">Astazi pun timpul si experienta mea in serviciul tau.</p>
 
       <section className="about2">
         <div className="flex-this-a2 container">
