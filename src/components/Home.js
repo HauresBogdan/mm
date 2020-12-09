@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import classNames from "classnames";
 import Mediwiki from "./Mediwiki";
 import SmallDivider from "./SmallDivider";
@@ -6,39 +5,39 @@ import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 
 function Home() {
-  const [isMouseOver, setIsMouseOver] = useState(false);
-  const [toggleSlide, setToggleSlide] = useState(false);
+  // const [isMouseOver, setIsMouseOver] = useState(false);
+  // const [toggleSlide, setToggleSlide] = useState(false);
 
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
-  const [stopAutoSlide, setStopAutoSlide] = useState(false);
+  // const [stopAutoSlide, setStopAutoSlide] = useState(false);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setToggleSlide((toggleSlide) => !toggleSlide);
-      setCount((count) => count + 1);
-    }, 6000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setToggleSlide((toggleSlide) => !toggleSlide);
+  //     setCount((count) => count + 1);
+  //   }, 6000);
 
-    if (stopAutoSlide === true) {
-      clearInterval(interval);
-    }
+  //   if (stopAutoSlide === true) {
+  //     clearInterval(interval);
+  //   }
 
-    return () => clearInterval(interval);
-  }, [stopAutoSlide]);
+  //   return () => clearInterval(interval);
+  // }, [stopAutoSlide]);
 
-  function toggleSlidee() {
-    setToggleSlide(!toggleSlide);
-    setCount(count + 1);
-    setStopAutoSlide(true);
-  }
+  // function toggleSlidee() {
+  //   setToggleSlide(!toggleSlide);
+  //   setCount(count + 1);
+  //   setStopAutoSlide(true);
+  // }
 
-  function changeDiamond() {
-    setIsMouseOver(true);
-  }
+  // function changeDiamond() {
+  //   setIsMouseOver(true);
+  // }
 
-  function returnDiamond() {
-    setIsMouseOver(false);
-  }
+  // function returnDiamond() {
+  //   setIsMouseOver(false);
+  // }
 
   return (
     <>
