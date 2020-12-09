@@ -6,6 +6,8 @@ import CuratareEnergetica from "./CuratareEnergetica";
 
 function Mediwiki() {
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [progEntered, setProgEntered] = useState(false);
+  const [moreEntered, setMoreEntered] = useState(false);
   const size = useWindowSize();
   const handleScroll = () => {
     const position = window.pageYOffset;
@@ -23,25 +25,47 @@ function Mediwiki() {
     <>
       <section className="first-wiki">
         <div className="mediwiki">
-          <div className="meditation-wiki">
+          <div className="meditation-wiki-row-reverse">
             <div className="wiki-image-parent">
-              <img className={className("", { "translate-image-l": scrollPosition > 200 })} src="ThetaHealingS.jpg" alt="meditation" />
+              <img className={className("", { "translate-image-r": scrollPosition > 200 })} src={size.width > 1300 ? "TH-1.jpg" : "TH-2.jpg"} alt="meditation" />
             </div>
             <div className={className("medi-info", { "translate-text": scrollPosition > 200 })}>
-              <h1>Ce este ThetaHealing. 🩺</h1>
+              <h1>Ce este ThetaHealing?</h1>
               <p>
-                ThetaHealing este o metodă pentru corp și minte care folosește <strong>energia</strong> curgătoare din toate lucrurile care există și produce schimbări permanente la <strong>nivel celular</strong>.
+                Cu ThetaHealing®, una dintre cele mai puternice tehnici de reprogramare a subconstientului, poti schimba convingerile limitative in <strong>posibilitati infinite!</strong>
               </p>
               <p>
-                Prin aceasta reușim să ne <strong>trasnformăm</strong> pe plan fizic , emoțional cât și spiritual.
+                Tot ceea ce crezi despre lumea interioara sau exterioara <strong>creaza realitatea</strong> in care traiesti in fiecare zi.
               </p>
+              <p>ThetaHealing este o metoda pentru corp si minte care iti ofera posibilitatea de a:</p>
+              <li>
+                <span>Inlaturi programe, frici si convingeri subconstiente instantaneu si definitiv.</span>
+              </li>
+              <li>
+                <span>Te vindeci pe plan emotional si fizic.</span>
+              </li>
+              <li>
+                <span>Ajungi la radacina oricarei situatii si o elimini intr-un mod rapid si sigur.</span>
+              </li>
               <p>
-                Propriile preconcepții despre noi înșine ne <strong>crează mediul înconjurător</strong> cât și rutinele noastre zilnice , viciile, problemele de sănătate, statusul financiar sau bunăstarea relațiilor noastre.
+                Acceste <strong>convingeri</strong> sunt adesea înrădăcinate din copilărie, transmise pe linia genealogică sau absorbite din conștiința de grup.
               </p>
-              <p>
-                Acceste convingeri sunt adesea <strong>înrădăcinate</strong> din copilărie, transmise pe linia genealogică sau absorbite din conștiința de grup.
-              </p>
-              <button className="violet-btn">Ești Gata Să Ți Le Schimbi?</button>
+              <div className="flex-this-btn mt1">
+                <button
+                  className={className({ "violet-btn redu-btn-padding": (!moreEntered && !progEntered) || progEntered }, { "sec-violet-btn redu-btn-padding": moreEntered })}
+                  onMouseEnter={() => setProgEntered(true)}
+                  onMouseLeave={() => setProgEntered(false)}
+                >
+                  Programeaza o sesiune
+                </button>
+                <button
+                  className={className({ "sec-violet-btn redu-btn-padding ml1": (!moreEntered && !progEntered) || progEntered }, { "violet-btn redu-btn-padding ml1": moreEntered })}
+                  onMouseEnter={() => setMoreEntered(true)}
+                  onMouseLeave={() => setMoreEntered(false)}
+                >
+                  Afla mai mult
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -54,8 +78,8 @@ function Mediwiki() {
       <section className="sec-wiki">
         <div className="mediwiki">
           <div className="meditation-wiki-reverse">
-            <div className={className("medi-info medi-info-l", { "translate-text": scrollPosition > 2500 })}>
-              <h1>Haide să medităm împreună 🧘🏻‍♂️</h1>
+            <div className={className("medi-info medi-info-l", { "translate-text": scrollPosition > 2300 })}>
+              <h1>Haide să medităm împreună</h1>
               <p>
                 În est meditația se folosea de mii de ani cu scopul de a ajunge la <strong>alte niveluri de conştiinţă</strong>.
               </p>
@@ -71,7 +95,7 @@ function Mediwiki() {
               <button className="violet-btn">Mă înscriu!</button>
             </div>
             <div className="wiki-image-parent">
-              <img className={className("", { "translate-image-r": scrollPosition > 2032 && size.width > 914 })} src="MeditatieS2.jpg" alt="meditation" />
+              <img className={className("", { "translate-image-r": scrollPosition > 2300 && size.width > 914 })} src="MeditatieS2.jpg" alt="meditation" />
             </div>
           </div>
         </div>

@@ -44,10 +44,10 @@ function Home() {
     <>
       <section className={classNames("main", { stanga: toggleSlide }, { dreapta: !toggleSlide && count > 0 })}>
         <div className="call-to-action">
-          <h1>Descoperă beneficile meditației!</h1>
-          <p>Lasăte ghidat de un terapeut cu o experiență de 5 ani în practicarea terapiei ThetaHealing și începe să trăiești viața pe care o meriți.</p>
+          <h1>Te invit să medităm înpreună!</h1>
+          <p>Meditația reduce starea de stres și anxietate, întărește sistemul imunitar, îmbunătățește capacitatea de concentrare și ajută la creșterea nivelului de energie.</p>
           <p></p>
-          <button className="violet-btn">Rezervă o ședință</button>
+          <button className="violet-btn">Rezervă locul acum</button>
         </div>
         <div className="img-div">
           <img className="main-img" src="heroimage2.png" alt="hero" onMouseOver={changeDiamond} onMouseLeave={returnDiamond} />
@@ -58,9 +58,10 @@ function Home() {
       <section className={classNames("sliding-main", { stanga: toggleSlide }, { dreapta: !toggleSlide && count > 0 })}>
         <div className="sliding-img-parent">
           <div className="sliding-img">
-            <img src="1.jpg" alt="thetahealing" />
+            <img src="2.png" alt="thetahealing" />
             <div className="mask"></div>
-            <p>SCHIMBĂ-ȚI CONVINGERILE LIMITATIVE DIN SUBCONȘTIENT ÎN POSIBILITĂȚI INFINITE!</p>
+            <p>Reconecteaza-te cu pacea din interior!</p>
+            <span className="semnatura">cu Mihaela Maierean</span>
           </div>
         </div>
       </section>
