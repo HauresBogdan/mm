@@ -469,8 +469,12 @@ nav ul li {
 .sliding-main {
   position: absolute;
   top: calc(8vh + 30px);
-  left: 100%;
+  left: 0%;
   /* display: none; */
+}
+
+.main2 {
+  position: relative;
 }
 
 
@@ -530,7 +534,7 @@ nav ul li {
   overflow-x: hidden;
   overflow-y: hidden;
   height: 92vh;
-  min-height: 356px !important;
+  min-height: 92vh !important;
 
 
 
@@ -553,7 +557,7 @@ nav ul li {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
   z-index: 12;
   color: #850F43;
   font-size: 4rem;

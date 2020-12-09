@@ -42,7 +42,7 @@ function Home() {
 
   return (
     <>
-      <section className={classNames("main", { stanga: toggleSlide }, { dreapta: !toggleSlide && count > 0 })}>
+      {/* <section className={classNames("main", { stanga: toggleSlide }, { dreapta: !toggleSlide && count > 0 })}>
         <div className="call-to-action">
           <h1>Te invit să medităm înpreună!</h1>
           <p>Meditația reduce starea de stres și anxietate, întărește sistemul imunitar, îmbunătățește capacitatea de concentrare și ajută la creșterea nivelului de energie.</p>
@@ -64,15 +64,26 @@ function Home() {
             <span className="semnatura">cu Mihaela Maierean</span>
           </div>
         </div>
+      </section> */}
+
+<section className={classNames("main2")}>
+        <div className="sliding-img-parent">
+          <div className="sliding-img">
+            <img src="2.png" alt="thetahealing" />
+            <div className="mask"></div>
+            <p>Reconecteaza-te cu pacea din interior!</p>
+            <span className="semnatura">cu Mihaela Maierean</span>
+          </div>
+        </div>
       </section>
 
-      <div className="slider-dots">
+      {/* <div className="slider-dots">
         <ul>
           <li className={!toggleSlide ? "filled-dot" : "hallow-dot"} onClick={toggleSlide ? toggleSlidee : () => {}}></li>
           <li></li>
           <li className={toggleSlide ? "filled-dot" : "hallow-dot"} onClick={!toggleSlide ? toggleSlidee : () => {}}></li>
         </ul>
-      </div>
+      </div> */}
       <SmallDivider />
       <Mediwiki />
       <Testimonials />

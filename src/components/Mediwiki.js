@@ -8,11 +8,21 @@ function Mediwiki() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [progEntered, setProgEntered] = useState(false);
   const [moreEntered, setMoreEntered] = useState(false);
+  const [isMouseOver, setIsMouseOver] = useState(false);
   const size = useWindowSize();
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollPosition(position);
   };
+
+
+  function changeDiamond() {
+    setIsMouseOver(true);
+  }
+
+  function returnDiamond() {
+    setIsMouseOver(false);
+  }
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -71,11 +81,33 @@ function Mediwiki() {
         </div>
       </section>
 
-      <SmallDivider2 />
+      <SmallDivider2 
+      header="Sunt aici să îți spun"
+      text="Când începi să constientizezi și să te încrezi că ceea ce îți spune inima ta că este adevarat,
+      atunci ai intrat în legătură directă cu adâncurile intuiției tale care curge prin tot corpul tău." 
+      />
 
       <CuratareEnergetica />
 
-      <section className="sec-wiki">
+      <SmallDivider2 
+      header="Descoperă beneficile meditației"
+      text="Știința modernă a observat că o practicare regulată a meditaţiei are efecte asupra plasticităţii creierului şi a sănătăţii. A cresterii optimismului şi a stării de bine." 
+      />
+
+      <section className="main">
+        <div className="call-to-action">
+          <h1>Te invit să medităm înpreună!</h1>
+          <p>Meditația reduce starea de stres și anxietate, întărește sistemul imunitar, îmbunătățește capacitatea de concentrare și ajută la creșterea nivelului de energie.</p>
+          <p></p>
+          <button className="violet-btn">Rezervă locul acum</button>
+        </div>
+        <div className="img-div">
+          <img className="main-img" src="heroimage2.png" alt="hero" onMouseOver={changeDiamond} onMouseLeave={returnDiamond} />
+          <img className={className("crystal-img", { "rotate-diamond": isMouseOver })} src={isMouseOver ? "diamond2.png" : "diamond1.png"} alt="crystal" />
+        </div>
+      </section>
+
+      {/* <section className="sec-wiki">
         <div className="mediwiki">
           <div className="meditation-wiki-reverse">
             <div className={className("medi-info medi-info-l", { "translate-text": scrollPosition > 2300 })}>
@@ -99,7 +131,7 @@ function Mediwiki() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* <section className="third-wiki">
     <div className="mediwiki">
