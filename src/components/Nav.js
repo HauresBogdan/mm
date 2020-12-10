@@ -10,10 +10,6 @@ function Nav() {
   function showPhoneMenu() {
       setPhoneMenu(!phoneMenu);
   }
-
-  
-
-  
   
   return (
     <div className="App">

@@ -30,7 +30,6 @@ function About() {
   return (
     <div className="about">
       <div className="about-banner">
-        {/* <img src="spiral1.png" alt="3 spirals"/> */}
         <p>Cateva cuvinte despre mine</p>
       </div>
 
