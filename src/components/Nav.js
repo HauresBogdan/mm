@@ -6,6 +6,7 @@ function Nav() {
 
   const location = useLocation();
   const [phoneMenu,setPhoneMenu] = useState(false);
+  const [hideDropDows,setHideDropDown] = useState(true);
   
   function showPhoneMenu() {
       setPhoneMenu(!phoneMenu);
@@ -25,8 +26,14 @@ function Nav() {
           <li>
             <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/About" })} to="/About">DESPRE MINE</Link>
           </li>
-          <li>
-            <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/Sedinte" })} to="/Sedinte">ȘEDINTE TERAPIE</Link>
+          <li className="dropdown" onClick={()=>setHideDropDown(false)} >
+            <span className={classNames('nav-link',
+             { 'nav-location': location.pathname==="/ThetaHealing" || location.pathname==="/Curatare" || location.pathname==="/Medidate" })} >ȘEDINTE TERAPIE</span>
+            <div className={classNames('dropdown-content',{'hideDropdown': hideDropDows})}  onMouseEnter={()=>setHideDropDown(false)} onMouseLeave={()=>setHideDropDown(true)}>
+            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/ThetaHealing" })} to="/ThetaHealing">Terapie Thetahealing</Link></p>
+            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Curatare" })} to="/Curatare">Curatare energetica</Link></p>
+            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Medidata" })} to="/Medidate">Medidate</Link></p>
+          </div>
           </li>
           <li>
             <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/Contact" })} to="/Contact">CONTACT</Link>
