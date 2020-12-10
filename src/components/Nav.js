@@ -26,7 +26,7 @@ function Nav() {
           <li>
             <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/About" })} to="/About">DESPRE MINE</Link>
           </li>
-          <li className="dropdown" onClick={()=>setHideDropDown(false)} >
+          <li className="dropdown" onClick={()=>setHideDropDown(!hideDropDows)} >
             <span className={classNames('nav-link',
              { 'nav-location': location.pathname==="/ThetaHealing" || location.pathname==="/Curatare" || location.pathname==="/Medidate" })} >ȘEDINTE TERAPIE</span>
             <div className={classNames('dropdown-content',{'hideDropdown': hideDropDows})}  onMouseEnter={()=>setHideDropDown(false)} onMouseLeave={()=>setHideDropDown(true)}>
