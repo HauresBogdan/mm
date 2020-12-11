@@ -123,7 +123,7 @@ nav ul li {
   flex-wrap: wrap;
   flex-direction: row-reverse;
   justify-content: center;
-  background: linear-gradient(90deg, rgba(175, 162, 173, 1) 0%, rgba(171, 158, 167, 1) 100%);
+  background: linear-gradient(90deg, rgb(199, 194, 197) 0%, rgb(201, 194, 199) 100%);
   min-height: 92vh;
   height: max-content;
 }
@@ -1064,7 +1064,7 @@ body {
  .container-and-flex-cursuri {
   max-width: 1250px;
   margin: auto;
-  padding: 40px 0 55px 0;
+  padding: 55px 0 55px 0;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -1072,36 +1072,21 @@ body {
 } 
 
 .cursuri {
-  background: linear-gradient(90deg, rgba(175, 162, 173, 1) 0%, rgba(171, 158, 167, 1) 100%);
+  background: linear-gradient(90deg, rgb(199, 194, 197) 0%, rgb(201, 194, 199) 100%);
   position: relative;
   z-index: 1;
   margin-bottom: -2px;
-  border-bottom: 1px solid #FAF3EE;
+   border-bottom: 1px solid #FAF3EE; 
 }
 
- .cursuri::before {
-  content: "";
-  height: 80px;
-  width: 100%;
-  position: absolute;
-  top:-20px;
-  left: 0;
-  background-color: #ada0aa;
-  opacity:1;
-  transform: skewY(1.1deg);
-  z-index: -3;
-} 
+.cursuri-hr {
+  border-color:#FAF3EE;
+}
 
 .cursuri1, .cursuri2 {
-  border: 1px solid #FAF3EE;
   padding: 20px 20px 20px 20px  ;
   min-width: 562px;
   color: rgb(122, 98, 66);
-  background: linear-gradient(90deg, rgb(199, 194, 197) 0%, rgb(201, 194, 199) 100%);
-}
-
-.add-to-hover-cursuri {  
-  background: linear-gradient(90deg, rgb(207, 203, 206) 0%, rgb(214, 209, 213) 100%);
 }
 
 .cursuri1 button, .cursuri2 button {
@@ -1116,12 +1101,7 @@ body {
   line-height: 1.5;
 }
 
-.cursuri1 small {
-  color: rgb(198, 252, 117);
-  position: relative;
-}
-
-.cursuri2 small {
+.cursuri1 small, .cursuri2 small {
   color: rgb(122, 98, 66);
   position: relative;
 }
@@ -1148,7 +1128,13 @@ body {
   margin-bottom: 10px;
 }
 
-@media (max-width:1224px) {
+ @media (max-width:1222px) {
+  .cursuri-hr {
+    display: none;
+  }
+} 
+
+@media (max-width:1220px) {
   .cursuri2 {
    margin-top: 30px;
    color: black;
@@ -1160,7 +1146,6 @@ body {
 
 @media (max-width:630px) {
   .cursuri1, .cursuri2 {
-    border: 1px solid  rgb(122, 98, 66);
     padding: 20px 20px 20px 20px  ;
     min-width: 92%;
     max-width: 92%;
@@ -1170,7 +1155,6 @@ body {
 
 .dropdown {
   position: relative;
-  /* display: inline-block; */
   cursor: pointer;
 }
 
