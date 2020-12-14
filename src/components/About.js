@@ -30,7 +30,7 @@ function About() {
   return (
     <div className="about">
       <div className="about-banner">
-        <p>Cateva cuvinte despre mine</p>
+        <p>Câteva cuvinte despre mine</p>
       </div>
 
       <section className="about1">
@@ -41,12 +41,12 @@ function About() {
           </div>
           <div className="right-flex-a1">
             <h2>Eu sunt Mihaela Maierean</h2>
-            <p>De mai bine de 5 ani sunt terapeut practicant de terapie ThetaHealing®. Am absolvit cursul de Theta: Baza, Avansat, Sapare Profunda si cursul de Spiraloterapie.</p>
+            <p>De mai bine de 5 ani sunt terapeut practicant de terapie ThetaHealing®. Am absolvit cursul de Theta: Baza, Avansat, Săpare Profundă și cursul de Spiraloterapie.</p>
             <p>
-              Chiar daca am imbratisat aceasta forma de terapie cu inima deschisa, drumul nu a fost mereu unul lin iar ca intr-o spirala care se roteste fara intrerupere, am fost ghidata mereu in a ma uita tot mai mult inauntrul meu pentru a intelege
-              si mai profund lectii pe care le credeam deja invatate.
+              Chiar dacă am îmbrațisat această formă de terapie cu inima deschisă, drumul nu a fost mereu unul lin iar ca într-o spirală care se rotește fară întrerupere, am fost ghidată mereu în a mă uita tot mai mult înauntrul meu pentru a înțelege
+              și mai profund lecții pe care le credeam deja învățate.
             </p>
-            <p>Pas cu pas am inceput sa asimilez o alta forma de cunoastere si de intelegere a mea si a Universului.</p>
+            <p>Pas cu pas am început să asimilez o altă formă de cunoaștere și de înțelegere a mea și a Universului.</p>
             <div className="spiral-parent">
             <img className="spiral1" src="spiral1.png" alt="3 spirals"/>
             </div>
@@ -55,22 +55,22 @@ function About() {
         </div>
       </section>
 
-      <p className="about-banner small-container">Astazi pun timpul si experienta mea in serviciul tau.</p>
+      <p className="about-banner small-container">Astăzi pun timpul și experiența mea în serviciul tău.</p>
 
       <section className="about2">
         <div className="flex-this-a2 container">
           <div className="left-flex-a2">
-            <h3>Nasterea misiunii mele…</h3>
+            <h3>Nașterea misiunii mele…</h3>
             <p>
-              Am crescut intr-o familie normala, religioasa, care a avut un impact foarte mare asupra mea in ceea ce priveste perspectiva asupra Divinitatii. Din dorinta de a avea libertate si de a fi independenta am plecat de acasa la varsta de 18
+              Am crescut într-o familie normală, religioasă, care a avut un impact foarte mare asupra mea în ceea ce privește perspectiva asupra Divinității. Din dorința de a avea libertate și de a fi independentă am plecat de acasă la varsta de 18
               ani.
             </p>
-            <p>Usor, Universul, mi-a pus in cale oameni care m-au facut sa ma indoiesc de vechile mele credinte legate de aproape orice si am inceput sa ma intreb daca exista o alta forma de a ma raporta la viata.
-            Treptat au venit si raspunsurile iar eu mi-am deschis inima inspre a intregra o noua definitie despre tot ceea ce exista.</p>
+            <p>Ușor, Universul, mi-a pus în cale oameni care m-au făcut să mă îndoiesc de vechile mele credințe legate de aproape orice și am început să mă întreb dacă există o altă formă de a mă raporta la viață.
+            Treptat au venit și răspunsurile iar eu mi-am deschis inima înspre a intregra o noua definiție despre tot ceea ce există.</p>
             <p>
-              In cautarea mea am descoperit tehnica ThetaHealing®. Aceasta “unealta” a aparut in viata mea la momentul potrivit, oferindu-mi posibilitatea de a rezolva orice situatie din prezent si din trecut intr-un mod rapid, eficient si definitiv.
+              În căutarea mea am descoperit tehnica ThetaHealing®. Această “unealtă” a apărut în viața mea la momentul potrivit, oferindu-mi posibilitatea de a rezolva orice situație din prezent și din trecut într-un mod rapid, eficient și definitiv.
             </p>
-            <p>Am simtit nevoia inca de la inceput sa impartasesc si cu ceailalti ceea ce eu descoperisem si asa a inceput calatoria mea ca si terapeut.</p>
+            <p>Am simțit nevoia încă de la început să împărtășesc și cu ceilalți ceea ce eu descoperisem și așa a început calatoria mea ca și terapeut.</p>
           </div>
           <div className="right-flex-a2">
             <img src="a2-1.jpg" alt="mihaela maierean" />
@@ -81,7 +81,7 @@ function About() {
       <section className="about3">
         <div className="about-banner">
           <div className="container">
-            <p>Practicarea acestei terapii imi ofera posibilitatea de contribui la vindecarea si curatarea atat a ta, a mea cat si a planetei.</p>
+            <p>Practicarea acestei terapii îmi oferă posibilitatea de a contribui la vindecarea și curățarea atât a ta, a mea cât și a planetei.</p>
           </div>
         </div>
         <div className="slider-parent container">
@@ -89,8 +89,8 @@ function About() {
         </div>
         <div className="about-banner3">
         <div className="container">
-        <p className="about-last-p">Deci, daca si tu esti pregatit sa te uiti in interior ca sa te vindeci si sa experimentezi puterea iubirii infinite</p>
-        <button className="violet-btn">Hai sa incepem</button>
+        <p className="about-last-p">Deci, dacă și tu ești pregătit să te uiți în interior ca să te vindeci și să experimentezi puterea iubirii infinite</p>
+        <button className="violet-btn">Hai să începem</button>
         </div>
         </div>        
       </section>
