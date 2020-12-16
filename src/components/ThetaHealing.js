@@ -92,52 +92,52 @@ function ThetaHealing() {
 ThetaHealing® este o formă de terapie, nu o religie. De asemenea este recomandat a fi utilizată împreună cu medicina convențională."
             showing="true"/>
             <Question
-              question="Cum se desfasoara o sesiunea de terapie ThetaHealing®?"
-              answer="Sesiunile de terapie ThetaHealing® functioneaza asemanator unei sesiuni de psihoterapie. Pe baza subiectului ales de tine vom identifica impreuna
+              question="Cum se desfășoară o sesiune de terapie ThetaHealing®?"
+              answer="Sesiunile de terapie ThetaHealing® funcționează asemănător unei sesiuni de psihoterapie. Pe baza subiectului ales de tine vom identifica împreună
                convingerile tale limitative,
-               fricile si amintirile care sunt stocate in subcontient. 
-               Pentru toate acestea vom utiliza metoda saparii profunde si testul kinesiologic. 
-               Dupa ce au fost identificare si testate va urma partea in care le vom elimina din subcontient si le vom schimba cu programe aprobate de tine menite sa 
-               iti creeze o realitate mai buna si mai potrivita. Pe langa toate acestea vom invata noi sentimente, vom scana corpul tau fizic si energetic si vom cere vindecari."
+               fricile și amintirile care sunt stocate în subcontient. 
+               Pentru toate acestea vom utiliza metoda săpării profunde și testul kinesiologic. 
+               După ce au fost identificate și testate va urma partea în care le vom elimina din subcontient și le vom schimba cu programe aprobate de tine menite să 
+               îți creeze o realitate mai bună și mai potrivită. Pe langă toate acestea vom învăța noi sentimente, vom scana corpul tău fizic și energetic și vom cere vindecări."
             />
             <Question
-              question="De ce schimbam programele din si in subcontient?"
-              answer="Imagineaza-ti ca subcontientul tau este o caseta pe care s-au inregistrat cantece foarte vechi. Daca vrei sa asculti alte cantece trebuie sa le stergi
-               pe cele existente si sa inregistrezi altele. Asa functioneaza si subcontientul tau. El a stocat programe, frici si amintiri inca din momentul in care tu
-                te-ai nascut si pana acum si le ruleaza in fiecare clipa, neincetat, chiar si atunci cand dormi. De asemenea subcontientul este responsabil de 90% din gandurile,
-                 emotiile si actiunile noastre din fiecare zi. Studiile arata ca subcontientul nostru are puterea de a crea realitatea pe care noi o traim zilnic pe baza informatiilor
-                  pe care le detine deja. De aceea schimbam programe din si in subcontient, pentru a avea posibilitatea de a-ti crea o alta realitate si a trai o viata mai buna si mai
-                   linistita."
+              question="De ce schimbăm programele din și în subcontient?"
+              answer="Imaginează-ți că subcontientul tău este o casetă pe care s-au înregistrat cantece foarte vechi. Dacă vrei să asculți alte cantece trebuie să le stergi
+               pe cele existente și să înregistrezi altele. Așa funcționează și subcontientul tău. El a stocat programe, frici și amintiri încă din momentul în care tu
+                te-ai născut și până acum și le rulează în fiecare clipă, neîncetat, chiar și atunci cand dormi. De asemenea subcontientul este responsabil de 90% din gândurile,
+                 emoțiile și acțiunile noastre din fiecare zi. Studiile arată că subcontientul nostru are puterea de a crea realitatea pe care noi o trăim zilnic pe baza informațiilor
+                  pe care le deținem deja. De aceea schimbăm programe din și în subcontient, pentru a avea posibilitatea de a-ți crea o alta realitate și a trăi o viață mai bună și mai
+                   liniștită."
             />
              <Question
-              question="Cat timp dureaza o sedinta de terapie ThetaHealing®?"
-              answer="O sedinta de terapie dureaza aproximativa 60 de minute. Prima sedinta face exceptie si poate dura aproximativ 90 de minute deoarece ne vom aloca timp sa ne 
-              cunoastem, sa te familiarizezi cu Theta si cu testul muscular."
+              question="Cât timp durează o ședință de terapie ThetaHealing®?"
+              answer="O ședință de terapie durează aproximativ 60 de minute. Prima ședință face excepție și poate dura aproximativ 90 de minute deoarece ne vom aloca timp să ne 
+              cunoaștem, să te familiarizezi cu Theta și cu testul muscular."
             />
             <Question
               question="Ce este testul muscular?"
-              answer="Testul muscular este o metoda prin care tu poti sa descoperi cu ajutorul corpului fizic daca o convingere face sau nu parte din subcontientul tau. 
-              Testul muscular se va realiza inainte si dupa ce convingerile tale au fost schimbate."
+              answer="Testul muscular este o metodă prin care tu poți să descoperi cu ajutorul corpului fizic dacă o convingere face sau nu parte din subcontientul tău. 
+              Testul muscular se va realiza înainte și după ce convingerile tale au fost schimbate."
             />
             <Question
-              question="Cum ma pregatesc pentru o sedinta de terapie ThetaHealing®?"
-              answer="Inainte de sedinta de terapie este important ca tu sa decizi pe ce anume vrei sa lucrezi si sa eliberezi din subcontientul tau. 
-              De asemenea, este important sa te asiguri ca in timpul sesiunii de terapie te afli intr-un spatiu in care un vei fi deranjat si ca ai 
-              in apropierea ta apa cu care sa te hidratezi."
+              question="Cum mă pregătesc pentru o ședință de terapie ThetaHealing®?"
+              answer="Înainte de ședința de terapie este important ca tu să decizi pe ce anume vrei să lucrezi și să eliberezi din subcontientul tău. 
+              De asemenea, este important să te asiguri că în timpul sesiunii de terapie te afli într-un spațiu în care nu vei fi deranjat și ca ai 
+              în apropierea ta apă cu care să te hidratezi."
             />
             <Question
-              question="La cate sedinte este necesar sa particip ca sa obtin rezultatele pe care mi le doresc?"
-              answer="Depinde mereu de situatia pe care vrei sa o rezolvi si cat este de inradacinata in subcontientul tau. Din experienta mea unele situatii
-               se rezolva intr-o sesiune, pe cand altele au nevoie de 3-4 intalniri. Cu cat esti mai deschis sa primesti schimbarea cu atat vindecarea va fi mai accelerata."
+              question="La cate ședințe este necesar să particip ca să obțin rezultatele pe care mi le doresc?"
+              answer="Depinde mereu de situația pe care vrei să o rezolvi și cât este de înrădăcinată în subcontientul tău. Din experiența mea unele situații
+               se rezolvă într-o sesiune, pe când altele au nevoie de 3-4 întâlniri. Cu cât ești mai deschis să primești schimbarea cu atât vindecarea va fi mai accelerată."
             />
             <Question
-              question="Voi simti schimbari inca de la prima sedinta?"
-              answer="Da, vei simti schimbari imediate inca de la prima sedinta. Vei observa ca dupa sesiunea de terapie te vei simti mai relaxat, 
-              energizat si eliberat, ca si cum ti s-a luat ceva de pe umeri."
+              question="Voi simți schimbări încă de la prima ședință?"
+              answer="Da, vei simți schimbări imediate încă de la prima ședință. Vei observa că după sesiunea de terapie te vei simți mai relaxat, 
+              energizat și eliberat, ca și cum ți s-a luat ceva de pe umeri."
             />
             <Question
-              question="Cat de des ar trebui sa particip la sesiuni individuale de terapie ThetaHealing®?"
-              answer="Depinde doar de tine si de rezultatele pe care vrei sa le obtii. Personal, eu lucrez in Theta zilnic si descopar programe si frici care ma saboteaza."
+              question="Cât de des ar trebui să particip la sesiuni individuale de terapie ThetaHealing®?"
+              answer="Depinde doar de tine și de rezultatele pe care vrei să le obții. Personal, eu lucrez în Theta zilnic și descopăr programe și frici care mă sabotează."
             />
           </div>
 
