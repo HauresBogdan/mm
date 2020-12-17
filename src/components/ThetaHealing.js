@@ -25,32 +25,36 @@ function ThetaHealing() {
                   <button className="violet-btn mt1">Programează o ședință</button>
                 </div>
               </div>
-              <div className="right-flex-thp1">
+              {/* <div className="right-flex-thp1">
                 <img src="thp-1.jpg" alt="mihaela maierean thetahealing" />
-              </div>
+              </div> */}
             </div>
           </section>
 
-          <div className="th-banner2">
+          {/* <div className="th-banner2">
             <h1 className="th-container">Ce putem realiza cu ThetaHealing®</h1>
-          </div>
+          </div> */}
 
-          <section className="thp-hero">
+          <section className="thp-hero2">
             <div className="flex-this-thp2 th-container">
               <div className="left-flex-thp2">
                 <h2>Prin intermediul acestei terapii, avem posibilitatea de a:</h2>
                 <ul>
-                  <li>Schimba convingeri și credințe limitative.</li>
-                  <li>Elibera frici.</li>
+                  <li>Schimba convingeri limitative și elibera frici.</li>
                   <li>Descărca în subconstientul nostru noi sentimente și perspective.</li>
                   <li>Vindeca relațiile cu cei din jurul nostru , atât din prezent cât și din trecut.</li>
                   <li>Curața atât pe noi cât și spațiile din jurul nostru de energii nedorite.</li>
                 </ul>
               </div>
-              <div className="right-flex-thp2">
+              {/* <div className="right-flex-thp2">
                 <img className="happy" src="happy.png" alt="gld" />
-              </div>
+              </div> */}               
+            </div>
+          </section>
+        </section>
 
+
+              <section className="thp-hero3">
               <div className="center-long th-container">
                 <p>
                   Pe parcursul ședinței de terapie vom lucra pe subiectul ales de tine, stabilindu-ne intenția de a ajunge împreună la fricile și convingerile
@@ -62,13 +66,12 @@ function ThetaHealing() {
                   deja.
                 </p>
                 <p>Lucrul în Theta îți permite să îți reprogramezi subcontientul cu programe aprobate de tine reușind astfel să îți creezi o altă realitate.</p>
-              </div>
-            </div>
-          </section>
-        </section>
+              </div> 
+              </section>
 
-        <section className="th-sec2 thp-hero">
-          <div className="th-banner bt1px">
+
+        <section className="th-sec2 thp-hero4">
+          <div className="th-banner">
             <h1 className="th-container">“Vindecarea trebuie realizată în prezent pentru a debloca viitorul.”</h1>
           </div>
 
@@ -78,7 +81,7 @@ function ThetaHealing() {
         </section>
 
         <section className="th-sec3 thp-hero">
-          <div className="th-banner2">
+          <div className="th-banner">
             <h1 className="th-container">Întrebări frecvente</h1>
           </div>
           <div className="questions th-container">
@@ -92,7 +95,7 @@ function ThetaHealing() {
 ThetaHealing® este o formă de terapie, nu o religie. De asemenea este recomandat a fi utilizată împreună cu medicina convențională."
             showing="true"/>
             <Question
-              question="Cum se desfășoară o sesiune de terapie ThetaHealing®?"
+              question="Cum se desfășoară o sesiune de terapie ThetaHealing?"
               answer="Sesiunile de terapie ThetaHealing® funcționează asemănător unei sesiuni de psihoterapie. Pe baza subiectului ales de tine vom identifica împreună
                convingerile tale limitative,
                fricile și amintirile care sunt stocate în subcontient. 
@@ -110,7 +113,7 @@ ThetaHealing® este o formă de terapie, nu o religie. De asemenea este recomand
                    liniștită."
             />
              <Question
-              question="Cât timp durează o ședință de terapie ThetaHealing®?"
+              question="Cât timp durează o ședință de terapie ThetaHealing?"
               answer="O ședință de terapie durează aproximativ 60 de minute. Prima ședință face excepție și poate dura aproximativ 90 de minute deoarece ne vom aloca timp să ne 
               cunoaștem, să te familiarizezi cu Theta și cu testul muscular."
             />
@@ -120,7 +123,7 @@ ThetaHealing® este o formă de terapie, nu o religie. De asemenea este recomand
               Testul muscular se va realiza înainte și după ce convingerile tale au fost schimbate."
             />
             <Question
-              question="Cum mă pregătesc pentru o ședință de terapie ThetaHealing®?"
+              question="Cum mă pregătesc pentru o ședință de terapie ThetaHealing?"
               answer="Înainte de ședința de terapie este important ca tu să decizi pe ce anume vrei să lucrezi și să eliberezi din subcontientul tău. 
               De asemenea, este important să te asiguri că în timpul sesiunii de terapie te afli într-un spațiu în care nu vei fi deranjat și ca ai 
               în apropierea ta apă cu care să te hidratezi."

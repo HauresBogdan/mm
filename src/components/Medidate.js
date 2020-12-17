@@ -30,10 +30,27 @@ function Medidate() {
       </section>
 
       <div className="th-banner2 fs-b2">
-        <h1 className="m-container">Benefici ale Medidatiei</h1>
+        <h1 className="m-container">Te invit la Medidate</h1>
       </div>
 
-      <Footer/>
+      <section className="thp-hero medi2-sec">
+        <div className="medi2 m-container2">
+
+          <div className="benefici-m">
+            <h1>Beneficiile meditatiei:</h1>
+            <p>	&#9633; reduce treptat stresul si intarzie imbatrinirea;</p>
+            <p>	&#9633; accentueaza starea de pace si de relaxare;</p>
+            <p>	&#9633; scade nivelul de anxietate si depresie;</p>
+            <p>	&#9633; imbunatateste sistemul imunitar si nivelul evergiei;</p>
+            <p>	&#9633; creste puterea de concentrare.</p>
+          </div>
+
+         
+
+        </div>
+      </section>
+
+      <Footer />
     </>
   );
 }

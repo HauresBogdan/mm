@@ -22,6 +22,15 @@
     padding: 0 5%; 
 }
 
+.medi2 {
+    display: flex;
+    justify-content: center;
+}
+
+.medi2-sec {
+padding: 100px 0;
+}
+
 .m-container2 {
     max-width: 1450px;
     margin: auto;  
@@ -79,4 +88,20 @@
     .medi1-left {
         padding: 3em;
     }
+}
+
+
+.benefici-m {
+    
+}
+
+.benefici-m h1 {
+    
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.benefici-m p {
+    margin-bottom: 35px;
+    font-weight: 600;
 }
