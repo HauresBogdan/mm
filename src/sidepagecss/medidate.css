@@ -12,11 +12,22 @@
     background: linear-gradient(to right, #c4b877, #e4deb8, #c4b877);    
 }
 
+.fs-b2 {
+    font-size: 0.8em;
+}
+
 .m-container {
     max-width: 1250px;
     margin: auto;  
     padding: 0 5%; 
 }
+
+.m-container2 {
+    max-width: 1450px;
+    margin: auto;  
+    padding: 0 5%; 
+}
+
 .medi1 {
     display: flex;
     flex-wrap: wrap;
