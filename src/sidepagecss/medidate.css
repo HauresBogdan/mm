@@ -1,0 +1,71 @@
+.m-banner{
+    color: #850F43;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.98px;
+    font-family: 'Cormorant Garamond', serif;
+    background: #c4b877; 
+    background: -webkit-linear-gradient(to right, #c4b877, #e4deb8, #c4b877); 
+    background: linear-gradient(to right, #c4b877, #e4deb8, #c4b877);    
+}
+
+.m-container {
+    max-width: 1250px;
+    margin: auto;  
+    padding: 0 5%; 
+}
+.medi1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 5%;
+    align-items: center;
+}
+
+.medi1-left {
+    max-width: 550px;
+    flex: 1 1 350px;
+    text-align: center;
+}
+
+.medi1-left h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 2.7em;
+    line-height: 1em;  
+}
+
+.medi1-left p:first-of-type {
+    font-size: 1.3em;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+.medi1-left p:last-of-type {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.medi1 button {
+    font-size: 1em;    
+}
+
+.medi1-right {
+    max-width: 450px;
+    flex: 1 1 350px;
+}
+
+.medi1-right img {
+    width: 100%;
+}
+
+@media (min-width:750px)
+{
+    .medi1-left {
+        padding: 3em;
+    }
+}
