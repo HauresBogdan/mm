@@ -1,53 +1,69 @@
-import "../sidepagecss/medidate.css";
 import Footer from "./Footer";
 import "../sidepagecss/thetahealing.css";
+import "../sidepagecss/curatare.css";
+import PriceCard from "./PriceCard";
 
 function Medidate() {
   return (
     <>
-      <div className="m-banner">
-        <h1 className="m-container">Medidate</h1>
-      </div>
+      <section className="th-sec">
+        <div className="th-banner">
+          <h1 className="th-container">Medidate</h1>
+        </div>
+        <section className="thp-hero">
+          <div className="c-main1 ">
+            <div className="cmain1">
+              <img className="icon2" src="medi1.png" alt="gld" />
+              <h2>Vrei să experimentezi beneficiile meditației?</h2>
+              <div className="c-container">
+                <p>Una dintre plăcerile mele este aceea de a medita iar MediDate a pornit din dorința de a medita în grup.</p>
+                <p>
+                  Programul îți oferă posibilitatea de a face parte dintr-un grup care se întâlnește în mediul virtual pentru a medita. Scopul acestei practici
+                  este de a crea un spațiu în care tu să poți să îți liniștești mintea și în care să îți setezi intenția de a fi centrat în momentul prezent.
+                </p>
+                <p>*Este GRATUIT</p>
+              </div>
 
-      <section className="thp-hero ">
-        <div className="medi1 m-container2">
-          <div className="medi1-left">
-            <h1>Vrei sa experimentezi beneficiile meditatiei?</h1>
-            <p>Una dintre placerile mele este aceea de a medita iar MediDate a pornit din dorinta de a medita in grup.</p>
-            <p>
-              Programul iti ofera posibilitatea de a face parte dintr-un grup care se intalneste in mediul virtual pentru a medita. Scopul acestei practici este
-              de a crea un spatiu in care tu sa poti sa iti linistesti mintea si in care sa iti setezi intentia de a fi centrat in momentul prezent.
-            </p>
-            <p>*Este GRATUIT</p>
-            <div className="center">
-              <button className="violet-btn mt1">Programează o ședință</button>
+              <div className="center">
+                <button className="violet-btn mt1">Programează o ședință</button>
+              </div>
             </div>
           </div>
-          <div className="medi1-right">
-            <img src="m1.jpg" alt="mihaela maierean thetahealing" />
-          </div>
+        </section>
+      </section>
+
+      <section className="thp-hero m-bimage">
+        <div className="c-text">
+          <h1>Beneficiile meditației:</h1>
+          <p> &#9633; reduce treptat stresul și întârzie îmbatrinirea;</p>
+          <p> &#9633; accentuează starea de pace și de relaxare;</p>
+          <p> &#9633; scade nivelul de anxietate și depresie;</p>
+          <p> &#9633; imbunătățește sistemul imunitar și nivelul evergiei;</p>
+          <p> &#9633; creste puterea de concentrare.</p>
         </div>
       </section>
 
-      <div className="th-banner2 fs-b2">
-        <h1 className="m-container">Te invit la Medidate</h1>
-      </div>
+      <section className="th-sec2 thp-hero">
+        <div className="th-banner ">
+          <h1 className="th-container">Locurile sunt limitate!</h1>
+        </div>
 
-      <section className="thp-hero medi2-sec">
-        <div className="medi2 m-container2">
-
-          <div className="benefici-m">
-            <h1>Beneficiile meditatiei:</h1>
-            <p>	&#9633; reduce treptat stresul si intarzie imbatrinirea;</p>
-            <p>	&#9633; accentueaza starea de pace si de relaxare;</p>
-            <p>	&#9633; scade nivelul de anxietate si depresie;</p>
-            <p>	&#9633; imbunatateste sistemul imunitar si nivelul evergiei;</p>
-            <p>	&#9633; creste puterea de concentrare.</p>
+        <div className="flex-this-c-sec2">
+          <div className="text">
+            <p>Una dintre plăcerile mele este aceea de a medita iar MediDate a pornit din dorința de a medita în grup.</p>
+            <p>Programul îți oferă posibilitatea de a face parte dintr-un grup care se întâlnește în mediul virtual pentru a medita.</p>
+            <p>
+              Scopul acestei practici este de a crea un spațiu în care tu să poți să îți liniștești mintea și în care să îți setezi intenția de a fi centrat în
+              momentul prezent.
+            </p>
           </div>
 
-         
-
+          <div className="c-price-card">
+            <PriceCard pach="CURĂȚARE ENERGETICĂ" bgcolor="#ddc32c" textcolor="black" time="30" nrsesions="1" price="0" />
+          </div>
         </div>
+
+        <p className="info-price-card">*Ședința durează aproximativ 30 de minute și se realizează pe Zoom. Este Gratuit!</p>
       </section>
 
       <Footer />

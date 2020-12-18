@@ -37,9 +37,9 @@ function Curatare() {
 
       <section className="thp-hero c-bimage">
         <div className="c-text">
-          <p>Alungă energiile negative energiile</p>
-          <p>Alungă energiile negative energiile</p>
-          <p>Alungă energiile negative energiile</p>
+          <p>Reconectează-te la energia ta și a Universului</p>
+          <p>Eliberează-te de stări care nu îți apartin</p>
+          <p>Adu inspirația și creativitatea în spațiul în care locuiești</p>
         </div>
       </section>
 

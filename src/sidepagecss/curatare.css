@@ -122,6 +122,26 @@
     opacity: 0.5;   
 }
 
+.m-bimage {
+    background: url(../media/medib.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.m-bimage:before {
+    content: "";
+    position: absolute;    
+    height: 100%;
+    width: 100%;
+    top:0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;   
+}
+
 .c-main1 p {
     letter-spacing: .35px;
     margin-bottom: 15px;
