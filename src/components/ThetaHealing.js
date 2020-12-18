@@ -14,7 +14,7 @@ function ThetaHealing() {
           <section className="thp-hero">
             <div className="flex-this-thp1 th-container">
               <div className="left-flex-thp1">
-                <img className="gld" src="gld3.png" alt="gld" />
+                <img className="icon1" src="icon1.png" alt="gld" />
                 <h2>Ești pregătit să faci o schimbare?</h2>
                 <p>Orice provocare din viața ta are la bază credințe și frici limitative înmagazinate în subcontient.</p>
                 <p>
@@ -24,16 +24,9 @@ function ThetaHealing() {
                 <div className="center">
                   <button className="violet-btn mt1">Programează o ședință</button>
                 </div>
-              </div>
-              {/* <div className="right-flex-thp1">
-                <img src="thp-1.jpg" alt="mihaela maierean thetahealing" />
-              </div> */}
+              </div>             
             </div>
-          </section>
-
-          {/* <div className="th-banner2">
-            <h1 className="th-container">Ce putem realiza cu ThetaHealing®</h1>
-          </div> */}
+          </section>         
 
           <section className="thp-hero2">
             <div className="flex-this-thp2 th-container">
@@ -45,10 +38,7 @@ function ThetaHealing() {
                   <li>Vindeca relațiile cu cei din jurul nostru , atât din prezent cât și din trecut.</li>
                   <li>Curața atât pe noi cât și spațiile din jurul nostru de energii nedorite.</li>
                 </ul>
-              </div>
-              {/* <div className="right-flex-thp2">
-                <img className="happy" src="happy.png" alt="gld" />
-              </div> */}               
+              </div>                          
             </div>
           </section>
         </section>
@@ -68,7 +58,6 @@ function ThetaHealing() {
                 <p>Lucrul în Theta îți permite să îți reprogramezi subcontientul cu programe aprobate de tine reușind astfel să îți creezi o altă realitate.</p>
               </div> 
               </section>
-
 
         <section className="th-sec2 thp-hero4">
           <div className="th-banner">

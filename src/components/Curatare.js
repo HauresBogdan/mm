@@ -7,23 +7,26 @@ function Curatare() {
   return (
     <>
       <section className="th-sec">
-        <div className="th-banner2">
+        <div className="th-banner">
           <h1 className="th-container">Curățare energetică</h1>
         </div>
         <section className="thp-hero">
-          <div className="c-main1 th-container">
+          <div className="c-main1 ">
             <div className="cmain1">
-              <img className="gld2" src="gld2.png" alt="gld" />
+              <img className="icon2" src="icon3.png" alt="gld" />
               <h2>Vrei să știi cum se simte să fii conectat doar la energia ta?</h2>
-              <p>Prin curățare energetică se înțelege eliberarea și trimiterea în lumina Divină a energiilor de vibrație joasă.</p>
-              <p>
-                Energiile de vibrație joasă pot fi experimentate atât în spațiile în care ne petrecem timpul (casă, birou etc.), dar cel mai frecvent le simțim
-                în campul nostru energetic.
-              </p>
-              <p>
-                O bună parte dintre aceste energii sunt preluate în viața de zi cu zi atunci când nu suntem centrați în momentul prezent. (ex: mergi pe stradă,
-                auzi pe cineva care se cearta iar tu întegrezi tensiunea acelui eveniment într-un mod inconștient).
-              </p>
+              <div className="c-container">
+                <p>Prin curățare energetică se înțelege eliberarea și trimiterea în lumina Divină a energiilor de vibrație joasă.</p>
+                <p>
+                  Energiile de vibrație joasă pot fi experimentate atât în spațiile în care ne petrecem timpul (casă, birou etc.), dar cel mai frecvent le
+                  simțim în campul nostru energetic.
+                </p>
+                <p>
+                  O bună parte dintre aceste energii sunt preluate în viața de zi cu zi atunci când nu suntem centrați în momentul prezent. (ex: mergi pe
+                  stradă, auzi pe cineva care se cearta iar tu întegrezi tensiunea acelui eveniment într-un mod inconștient).
+                </p>
+              </div>
+
               <div className="center">
                 <button className="violet-btn mt1">Programează o ședință</button>
               </div>
@@ -32,8 +35,16 @@ function Curatare() {
         </section>
       </section>
 
+      <section className="thp-hero c-bimage">
+        <div className="c-text">
+          <p>Alungă energiile negative energiile</p>
+          <p>Alungă energiile negative energiile</p>
+          <p>Alungă energiile negative energiile</p>
+        </div>
+      </section>
+
       <section className="th-sec2 thp-hero">
-        <div className="th-banner bt1px">
+        <div className="th-banner ">
           <h1 className="th-container">Alungă energiile negative</h1>
         </div>
 

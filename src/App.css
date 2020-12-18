@@ -1047,6 +1047,7 @@ body {
 }
 
 .main-croped-img {
+  height: 92vh;
   -webkit-filter: drop-shadow(0 0 6px #222);
   filter: drop-shadow(-3px 5px 6px #222);
 }
