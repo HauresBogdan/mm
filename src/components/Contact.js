@@ -7,6 +7,15 @@ import { useForm } from "react-hook-form";
 function Contact() {
   const { register, handleSubmit, errors } = useForm(); // initialize the hook
   const onSubmit = (data) => {
+    
+
+    fetch('/', {
+      method: 'POST',
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(data).toString()
+    }).then(() => console.log('Form successfully submitted')).catch((error) =>
+      alert(error));
+
     console.log(data);
   };
 
@@ -19,7 +28,7 @@ function Contact() {
         <section className="thp-hero">
           <div className="contact-and-text th-container">
             <div className="contact-contact form-container">
-              <form action="POST" data-netlify="true" onSubmit={handleSubmit(onSubmit)}>
+              <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit(onSubmit)}>
                 <label htmlFor="name">Nume</label>
                 <div className="contact-errors">
                   <p>{errors.name && "Nu ai introdus numele"}</p>
