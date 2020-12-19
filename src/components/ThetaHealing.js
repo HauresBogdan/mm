@@ -69,7 +69,7 @@ function ThetaHealing() {
           <p className="info-price-card">*Ședința durează aproximativ o oră și se realizează pe Zoom. Confidențialitatea este garantată!</p>
         </section>
 
-        <section className="th-sec3 thp-hero">
+        <section className="th-sec3 thp-hero" id="questions">
           <div className="th-banner">
             <h1 className="th-container">Întrebări frecvente</h1>
           </div>
