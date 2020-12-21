@@ -44,9 +44,9 @@ function Curatare() {
       </section>
 
       <section className="th-sec2 thp-hero">
-        <div className="th-banner ">
+        {/* <div className="th-banner ">
           <h1 className="th-container">Alungă energiile negative</h1>
-        </div>
+        </div> */}
 
         <div className="flex-this-c-sec2">
           <div className="text">
