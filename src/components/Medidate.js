@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import "../sidepagecss/thetahealing.css";
 import "../sidepagecss/curatare.css";
-import PriceCard from "./PriceCard";
+// import PriceCard from "./PriceCard";
 
 function Medidate() {
   return (
