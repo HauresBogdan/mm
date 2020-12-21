@@ -63,6 +63,10 @@ function Medidate() {
           </div> */}
         </div>
 
+        <div className="center">
+                <button className="violet-btn mt1">Mă înscriu!</button>
+        </div>
+
         <p className="info-price-card">*Ședința durează aproximativ 30 de minute și se realizează pe Zoom. Este Gratuit!</p>
       </section>
 
