@@ -16,12 +16,12 @@ function Medidate() {
               <img className="icon2" src="medi1.png" alt="gld" />
               <h2>Vrei să experimentezi beneficiile meditației?</h2>
               <div className="c-container">
-                <p>Una dintre plăcerile mele este aceea de a medita iar MediDate a pornit din dorința de a medita în grup.</p>
-                <p>
+                {/* <p>Una dintre plăcerile mele este aceea de a medita iar MediDate a pornit din dorința de a medita în grup.</p> */}
+                {/* <p>
                   Programul îți oferă posibilitatea de a face parte dintr-un grup care se întâlnește în mediul virtual pentru a medita. Scopul acestei practici
                   este de a crea un spațiu în care tu să poți să îți liniștești mintea și în care să îți setezi intenția de a fi centrat în momentul prezent.
-                </p>
-                <p>*Este GRATUIT</p>
+                </p> */}
+                <p>este GRATUIT</p>
               </div>
 
               <div className="center">
@@ -44,9 +44,9 @@ function Medidate() {
       </section>
 
       <section className="th-sec2 thp-hero">
-        <div className="th-banner ">
+        {/* <div className="th-banner ">
           <h1 className="th-container">Locurile sunt limitate!</h1>
-        </div>
+        </div> */}
 
         <div className="flex-this-c-sec2">
           <div className="text">
@@ -58,9 +58,9 @@ function Medidate() {
             </p>
           </div>
 
-          <div className="c-price-card">
+          {/* <div className="c-price-card">
             <PriceCard pach="CURĂȚARE ENERGETICĂ" bgcolor="#ddc32c" textcolor="black" time="30" nrsesions="1" price="0" />
-          </div>
+          </div> */}
         </div>
 
         <p className="info-price-card">*Ședința durează aproximativ 30 de minute și se realizează pe Zoom. Este Gratuit!</p>

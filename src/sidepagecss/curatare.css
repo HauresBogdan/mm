@@ -123,7 +123,7 @@
 }
 
 .m-bimage {
-    background: url(../media/medib.jpg) no-repeat center center fixed; 
+    background: url(../media/medib4.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -176,7 +176,7 @@
 }
 
 .flex-this-c-sec2 .text {
-    max-width: 550px;
+    max-width: 800px;
    
 }
 
