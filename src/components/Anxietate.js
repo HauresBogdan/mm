@@ -218,7 +218,7 @@ export default function Anxietate() {
               </div>
 
               <div>
-                <img src="t3.jpg" />
+                <img src="t3.jpg" alt="test" />
                 <div className="myCarousel">
                   <h3>Bianca M.</h3>
                   <h4>Ilustratoare</h4>
