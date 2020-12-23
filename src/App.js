@@ -7,6 +7,8 @@ import Curatare from "./components/Curatare";
 import Medidate from "./components/Medidate";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import Anxietate from "./components/Anxietate";
+import Manifestare from "./components/Manifestare";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/Curatare" component={Curatare} />
           <Route path="/Medidate" component={Medidate} />
           <Route path="/Contact" component={Contact} />
+          <Route path="/Anxietate" component={Anxietate} />
+          <Route path="/Manifestare" component={Manifestare} />
         </Switch>
       </Router>
     </div>
