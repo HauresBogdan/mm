@@ -1,0 +1,29 @@
+.quote-divider {
+    background: #dfd9dd;
+    background: -webkit-linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd);
+    background: linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd);
+    border-top: 1px solid white;   
+    border-bottom: 1px solid white;   
+    padding: 40px;
+}
+
+.quote-divider p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6em;
+    text-align: center;
+    color: #740535;
+    font-weight: 500;
+}
+
+.quote-divider p:last-of-type {
+    text-align: end;
+    padding-top: 20px;
+    font-size: 1.1em;
+    font-weight: 600;
+
+}
+
+.youtube-padding {
+    padding: 40px 0 30px 0;
+}
+

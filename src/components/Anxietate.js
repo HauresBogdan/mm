@@ -5,9 +5,10 @@ import "../sidepagecss/thetahealing.css";
 import "../sidepagecss/anxietate.css";
 import "../sidepagecss/contact.css";
 import Question from "./Question";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+
 import { useForm } from "react-hook-form";
+import Facilitatoarea from "./Facilitatoarea.js";
+import Testimonials2 from "./Testimonials2.js";
 
 export default function Anxietate() {
   const [anxi11Hover, setAnxi11Hover] = useState(false);
@@ -157,27 +158,7 @@ export default function Anxietate() {
             </div>
           </div>
         </section>
-        <section className="anxietate5">
-          <div className="flex-anxi5 anxi-container">
-            <div className="flex-anxi5-img-parent">
-              <img src="a1-1.jpg" alt="mihaela maierean" />
-            </div>
-
-            <div className="anxi5-text">
-              <p>Facilitatoare Meditatie</p>
-              <h2>Mihaela Maierean</h2>
-              <p className="text-align-justify standard-text">
-                Trainer, terapeut practicant de terapie ThetaHealing si fondatoarea Sesiunilor de Manifestare Constienta si a Comunitatii Gandurilor Pozitive.
-                Are mai bine de 5 ani de experienta in lucrul cu oamenii. Este pasionata de meditatie si dezvoltare spirituala. De mai bine de un an organizeaza
-                meditatii ghidate online pe diferite teme. Prin terapiile pe care le face ea ajuta oamenii sa isi identifice si sa isi elibereze fricile si
-                blocajele mentale care le limiteaza viata de zi cu zi si sa isi descopere puterea personala folosind propriile lor resurse.
-              </p>
-              <div className="mt35px center-on-m">
-                <button className="violet-btn">Mai mult despre Mihaela</button>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Facilitatoarea/>
         <section className="anxietate6">
           <h1 className="anxi6-title text-align-center">Intrebari frecvente</h1>
           <div className="anxi-questions anxi-container">
@@ -201,36 +182,8 @@ export default function Anxietate() {
               answer="In cazul in care intervine ceva neprevazut, poti primi valoarea investita daca aduci un inlocuitor."
             />
           </div>
-        </section>
-        <section className="anxietate7">
-          <div className="anxi-container7">
-            <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showStatus={false} autoPlay={true} interval={6100}>
-              <div>
-                <img src="t1.jpg" alt="test" />
-                <div className="myCarousel">
-                  <h3>Elena V.</h3>
-                  <h4>Medic</h4>
-                  <p>
-                    O voce blândă, un suflet cald și vesel... Imediat găsește cuvintele potrivite și te încurajează. Terapia cu Mihaela este ceva extraordinar,
-                    imediat simți că ești muuult mai bine decât înainte. O recomand din tot sufletul. Este minunată!
-                  </p>
-                </div>
-              </div>
-
-              <div>
-                <img src="t3.jpg" alt="test" />
-                <div className="myCarousel">
-                  <h3>Bianca M.</h3>
-                  <h4>Ilustratoare</h4>
-                  <p>
-                    Un suflet bun, o energie pozitiva, un zambet cald, o persoana minunata care iti schimba perspectiva asupra vietii! Ai reusit sa faci un om
-                    fericit! Multumesc, Mihaela!
-                  </p>
-                </div>
-              </div>
-            </Carousel>
-          </div>
-        </section>
+        </section>        
+        <Testimonials2/>
         <section className="anxietate8">
           <h2 className="text-align-center">Investitie:</h2>
           <div className="text-align-center">
@@ -278,14 +231,11 @@ export default function Anxietate() {
             </div>
         </section>
         <section className="anxietate10">
-
                 <img src="bani-sticker.svg" alt="retur"/>
                 <div className="mt15px">
                 <p>*Acest program iti ofera o garantie de 30 de zile in care poti cere banii inapoi.</p>
                 <p>Ganduri bune!</p>
-                </div>
-               
-
+                </div>              
         </section>
       </div>
       <Footer />

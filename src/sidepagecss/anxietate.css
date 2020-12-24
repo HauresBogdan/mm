@@ -18,9 +18,10 @@
 }
 
 .anxietate1 p {
+    font-family: 'Cormorant Garamond', serif;
     color: #880F43;
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1.6em;
+    font-weight: 600;
 }
 
 .anx1-imgs {
@@ -69,9 +70,12 @@
     text-transform: uppercase;
     letter-spacing: 2.98px;
     font-family: 'Cormorant Garamond', serif;
-    background: #C8C2C6;
+    /* background: #C8C2C6;
     background: -webkit-linear-gradient(to right, #C8C2C6, #dfd9dd, #C8C2C6);
-    background: linear-gradient(to right, #C8C2C6, #dfd9dd, #C8C2C6);
+    background: linear-gradient(to right, #C8C2C6, #dfd9dd, #C8C2C6); */
+    background: #dfd9dd;
+    /* background: -webkit-linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd);
+    background: linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd); */
 }
 
 .paragraphs-anxi2 {
@@ -89,9 +93,9 @@
 }
 
 .anxietate3 {
-    background: #C8C2C6;
-    background: -webkit-linear-gradient(to right, #C8C2C6, #dfd9dd, #C8C2C6);
-    background: linear-gradient(to right, #C8C2C6, #dfd9dd, #C8C2C6);
+    background: #dfd9dd;
+    /* background: -webkit-linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd);
+    background: linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd); */
     text-align: center;
     padding: 50px 5%;
 }
@@ -228,7 +232,9 @@
 
 
 .anxietate5 {
-    background: #C8C2C6;
+    background: #dfd9dd;
+    /* background: -webkit-linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd);
+    background: linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd); */
     padding: 50px 0;
 }
 
@@ -258,13 +264,18 @@
 }
 
 .anxietate8 {
-    background: #EBE5EA;
+     background: #EBE5EA; 
+   
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     padding: 10px 0 60px 0;
 
 }
 
 .anxietate9 {
-    background: #C8C2C6;
+    background: #dfd9dd;
+    /* background: -webkit-linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd);
+    background: linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd); */
     padding: 50px 0;
 }
 
@@ -320,7 +331,9 @@
 }
 
 .anxietate7 {
-    background: #C8C2C6;
+    background: #dfd9dd;
+    /* background: -webkit-linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd);
+    background: linear-gradient(to right, #dfd9dd, #e7e0e5, #dfd9dd); */
     padding: 50px 0;
 
 }
