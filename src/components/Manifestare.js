@@ -1,5 +1,4 @@
 import Footer from "./Footer";
-import classNames from "classnames";
 import "../sidepagecss/thetahealing.css";
 import "../sidepagecss/anxietate.css";
 import "../sidepagecss/manifestare.css";
