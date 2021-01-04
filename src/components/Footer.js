@@ -22,6 +22,11 @@ export default function Footer() {
               </a>
 
               </div>
+              <p className="mt10px ">
+                <Link className="footer-contact-link" to="/Comunitate">
+                ✨ Comunitatea Gandurilor pozitive 
+                </Link>
+              </p>
              
             </div>
             <div className="footer-right-flex">

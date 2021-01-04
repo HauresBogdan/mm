@@ -1221,6 +1221,10 @@ body {
   justify-content: center;
 }
 
+.mt10px {
+  margin-top: 10px;
+}
+
 .mt15px {
   margin-top: 15px;
 }

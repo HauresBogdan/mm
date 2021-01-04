@@ -1,0 +1,77 @@
+.comunitate-subheader {
+    font-size: 2em !important;
+
+
+}
+
+.anxietate4 button {
+    font-size: 1em;
+}
+
+.comunitate-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comunitate-flex-r {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.text-com {
+    max-width: 600px;
+    
+}
+
+.text-com p {
+   text-align: justify;
+}
+
+.img-com-parrent {
+    max-width: 340px;
+}
+
+.img-com-parrent img {
+    width: 100%;
+}
+
+
+
+.anxietate2 h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.7em;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+  
+    padding-bottom: 20px;
+    color: #462332;
+    text-align: center;
+}
+
+@media (max-width:1061px) {
+    .img-com-parrent {
+        max-width: 500px;
+    }
+
+    .img-com-parrent img {
+        width: 100%;
+        padding-top: 50px;
+
+    }
+
+    .comunitate-flex-r, .comunitate-flex {       
+        justify-content:center;
+
+    }
+   
+
+
+}

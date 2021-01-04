@@ -20,8 +20,8 @@ export default function Manifestare() {
       <div className="anxietate">
         <section className="anxietate1">
           <img className="anxiety1-img" src="manifestare1.png" alt="flower" />
-          <h1>Sesiuni de manifestare constienta</h1>
-          <p>Practici de manifestare si creare a realitatii dorite pe care toata lumea ar trebui sa le cunoasca.</p>
+          <h1>Sesiuni de manifestare conștientă</h1>
+          <p>Practici de manifestare şi creare a realităţii dorite pe care toată lumea ar trebui să le cunoască.</p>
           <div className="youtube-parent youtube-padding">
             <iframe
               className="youtube-iframe"
@@ -32,26 +32,25 @@ export default function Manifestare() {
               title="embeded-youtube"
             ></iframe>
           </div>
-          <p>Eu sunt Mihaela si te voi ghida in procesul tau de manifestare al RELATIILOR</p>
+          <p> Eu sunt Mihaela și te voi ghida în procesul tău de manifestare al RELAȚIILOR </p>
         </section>
         <div className="banner-anxi2">
-          <h1>De ce sa particip!</h1>
+          <h1>De ce să particip!</h1>
         </div>
         <section className="anxietate2">
           <div className="paragraphs-anxi2 standard-text">
-            <p>- Vei invata sa manifesti relatiile pe care ti le doresti folosindu-ti propriile emotii; </p>
-            <p>- Vei descoperi cum poti sa te conectezi la puterea personala intr-un mod foarte rapid;</p>
+            <p>- Vei învăța să manifești relațiile pe care ți le dorești folosindu-ți propriile emoții; </p>
+            <p>- Vei descoperi cum poți să te conectezi la puterea personală într-un mod foarte rapid;</p>
             <p>
-              - Vei invata cum poti sa iti muti atentia de la ganduri si sentimente de vibratie joasa (negative) la ganduri si sentimente de vibratie inalta
-              (pozitive);
+              -  Vei învăța cum poți să îți muți atenția de la gânduri și sentimente de vibrație joasă (negative) la gânduri și sentimente de vibrație înaltă (pozitive); 
             </p>
-            <p>- Vei descoperi care este povestea pe care ti-o spui zilnic despre relatii si cum iti afecteaza ea realitatea;</p>
-            <p>- Vei face parte dintr-un grup de oameni care vor trece prin aceleasi procese ca si tine;</p>
-            <p>- Vei deveni constant/a in practicile de manifestare.</p>
-            <p>- Vei folosi recunostinta pentru a manifesta noua ta realitate.</p>
+            <p>- Vei descoperi care este povestea pe care ți-o spui zilnic despre relații și cum îți afectează ea realitatea;</p>
+            <p>- Vei face parte dintr-un grup de oameni care vor trece prin aceleași procese că și ține;</p>
+            <p>- Vei deveni constant/ă în practicile de manifestare.</p>
+            <p>- Vei folosi recunoștință pentru a manifesta noua ta realitate.</p>
           </div>
           <div className="flex-center mt30px">
-            <button className="violet-btn">VREAU SI EU</button>
+            <button className="violet-btn">VREAU ȘI EU</button>
           </div>
         </section>
         <section className="anxietate3">
@@ -68,36 +67,36 @@ export default function Manifestare() {
         </section>
         <section className="anxietate4">
           <div className="anxi-container">
-            <h1 className="anxi-title text-align-center">Despre Sesiunile de Manifestare Constienta</h1>
+            <h1 className="anxi-title text-align-center">Despre Sesiunile de Manifestare Conștientă</h1>
             <h2>Ce este acest program?</h2>
             <div className="standard-text text-align-justify">
               <p>
-                Programul Sesiuni de Manifestare Constienta contine o serie de practici care iti permit sa observi ca toata puterea creatoare si de manifestare
-                se afla in tine. Eu te vom ajuta sa o identifici si sa o folosesti intr-un mod constient, accelerand astfel procesul de manifestare.
+              Programul Sesiuni de Manifestare Conștientă conține o serie de practici care îți permit să observi că toată puterea creatoare și de manifestare
+              se află în ține. Eu te vom ajuta să o identifici și să o folosești într-un mod conștient, accelerând astfel procesul de manifestare.
               </p>
               <p>
-                De cele mai multe ori vibratia noastra fata de ceea ce ne dorim nu este direct proportionala cu energia obiectului/situatiei respective. Ce
-                inseamna asta? Spre exemplu, ne dorim relatii de succes, dar la nivel energetic emanam lipsa acestora in viata noastra. De aceea in final
-                atragem acele relatii pe care nu ni le dorim deoarece manifestarea se realizeaza la nivel energetic si vibrational.
+              De cele mai multe ori vibrația noastră față de ceea ce ne dorim nu este direct proporțională cu energia obiectului/situației respective. Ce 
+                 înseamnă asta? Spre exemplu, ne dorim relații de succes, dar la nivel energetic emanăm lipsa acestora în viața noastră. De aceea în final 
+                 atragem acele relații pe care nu ni le dorim deoarece manifestarea se realizează la nivel energetic și vibrațional.
               </p>
               <p>
-                Acest program vine in sprijinul tau tocmai pentru a te ghida in identificarea blocajelor tale energetice, eliminarea lor si acordarea energiei
-                tale la energia relatiilor dorite.
+              Acest program vine în sprijinul tău tocmai pentru a te ghida în identificarea blocajelor tale energetice, eliminarea lor și acordarea energiei 
+                 tale la energia relațiilor dorite. 
               </p>
             </div>
 
-            <h2>Cum se desfasoara?</h2>
+            <h2>Cum se desfasoară?</h2>
             <div className="text-align-center">
               <div className="center-but-left">
                 <div className="standard-text">
                   <p>
-                    Prin 2 intalniri saptamanale live si online, timp de 2 saptamani. Fiecare intalnire dureaza 60 min. Incepem cu o meditatie ghidata prin care
-                    vei integra sentimentul necesar pentru a manifesta usor si cu bucurie tot ceea ce-ti doresti. Terminam cu discutii si raspunsuri la
-                    intrebarile tale.
+                  Prin 2 întâlniri săptămânale live și online, timp de 2 săptămâni. Fiecare întâlnire durează 60 min. Începem cu o meditație ghidată prin care 
+                     vei integra sentimentul necesar pentru a manifesta ușor și cu bucurie tot ceea ce-ți dorești. Terminăm cu discuții și răspunsuri la 
+                     întrebările tale. 
                   </p>
                   <p>
-                    Dupa de fiecare sesiune de manifestare, iti voi trimite un scurt video cu detalii despre activitatile individuale. Fii fara griji, fiecare
-                    activitate iti va lua maximum 10 minute, zilnic.
+                  După de fiecare sesiune de manifestare, îți voi trimite un scurt video cu detalii despre activitățile individuale. Fii fără griji, fiecare 
+                     activitate îți va luă maximum 10 minute, zilnic.
                   </p>
                 </div>
               </div>
@@ -107,68 +106,68 @@ export default function Manifestare() {
             <div className="text-align-center">
               <div className="center-but-left">
                 <div className="standard-text">
-                  <p>- 4 sesiuni de manifestare live prin meditatie si exercitii mentale;</p>
-                  <p>- 2 meditatii inregistrate pe care le vei face in ritmul tau;</p>
-                  <p>- scurte activitati individuale pe care le vei face singur dupa sesiunea de manifestare;</p>
-                  <p>- sustinerea mea pe tot parcursul programului;</p>
-                  <p>- acces la un grup exclusiv pe Facebook in care vei putea impartasi cu ceilalti participanti si aprofunda subiectele;</p>
-                  <p>- un premiu oferit prin exagere la sorti, si anume: o sesiune gratuita de terapie ThetaHealing cu Mihaela.</p>
+                <p>- 4 sesiuni de manifestare live prin meditație și exerciții mentale;</p> 
+                   <p>- 2 meditații înregistrate pe care le vei face în ritmul tău;</p> 
+                   <p>- scurte activități individuale pe care le vei face singur după sesiunea de manifestare;</p> 
+                   <p>- susținerea mea pe tot parcursul programului;</p> 
+                   <p>- acces la un grup exclusiv pe Facebook în care vei putea împărtăși cu ceilalți participanți și aprofunda subiectele;</p> 
+                   <p>- un premiu oferit prin extragere la sorți, și anume: o sesiune gratuită de terapie ThetaHealing cu Mihaela.</p> 
                 </div>
               </div>
             </div>
 
             <div className="flex-center mt45px">
-              <button className="violet-btn">Ma inscriu</button>
+              <button className="violet-btn">Ma înscriu</button>
             </div>
           </div>
         </section>
         <Facilitatoarea />
         <section className="anxietate6">
-          <h1 className="anxi6-title text-align-center">Intrebari frecvente</h1>
+          <h1 className="anxi6-title text-align-center">Întrebări frecvente</h1>
           <div className="anxi-questions anxi-container">
             <Question
-              question="Cand se desfasoara acest program?"
-              answer="Sesiunile de Manifestare Constienta incep pe 27 octombrie la ora 9 PM, ora Romaniei. Ne vom vedea in fiecare Marti si Joi de la 9 PM, ora Romaniei. Locatie: Online"
+              question="Când se desfășoară acest program?"
+              answer="Sesiunile de Manifestare Conștientă încep pe 27 octombrie la ora 9 PM, ora României. Ne vom vedea în fiecare Marți și Joi de la 9 PM, ora României. Locație: Online"
               showing="true"
             />
             <Question
-              question="Daca lipsesc de la intalnirea online voi primi inregistrarea meditatiei? "
-              answer="Fii fara griji! Daca se intampla sa lipsesti de la intalnirea online, iti voi da acces la inregistrare."
+              question="Dacă lipsesc de la întâlnirea online voi primi înregistrarea meditației? "
+              answer="Fii fără griji! Dacă se întâmplă să lipsești de la întâlnirea online, îți voi da acces la înregistrare."
             />
             <Question
-              question="Voi putea accesa intalnirea online de pe computer/telefon/tableta? "
-              answer="Da, tot ce trebuie sa faci este sa te asiguri ca ai o buna conexiune la internet."
+              question="Voi putea accesa întâlnirea online de pe computer/telefon/tabletă?"
+              answer="Da, tot ce trebuie să faci este să te asiguri că ai o bună conexiune la internet."
             />
             <Question
-              question="Este rambursabila taxa de inscriere?"
-              answer="In cazul in care intervine ceva neprevazut, poti primi valoarea investita daca aduci un inlocuitor."
+              question="Este rambursabilă taxa de înscriere? "
+              answer="În cazul în care intervine ceva neprevăzut, poți primi valoarea investită dacă aduci un înlocuitor."
             />
           </div>
         </section>
         <Testimonials2 />
         <section className="anxietate8">
-          <h2 className="text-align-center">Investitie:</h2>
+          <h2 className="text-align-center">Investiție:</h2>
           <div className="text-align-center">
             <div className="center-but-left">
               <div className="standard-text">
                 <p>
                   <span>EARLY BIRD</span>
-                  <strong> 176 RON</strong> pana pe 18 octombrie.
+                  <strong> 176 RON</strong> până pe 18 octombrie.
                 </p>
                 <p>
-                  <span>Investitia integrala</span>
-                  <strong> 256 RON</strong> pana pe 23 octombrie.
+                  <span>Investiția integrală </span>
+                  <strong> 256 RON</strong> până pe 23 octombrie.
                 </p>
-                <p>*Plata se face prin transfer bancar, detaliile le primesti pe email dupa inregistrare.</p>
+                <p>*Plata se face prin transfer bancar, detaliile le primești pe email după înregistrare.</p>
                 <p>
-                  <strong>Grabeste-te, locurile sunt limitate!</strong>
+                  <strong>Grăbește-te, locurile sunt limitate!</strong>
                 </p>
               </div>
             </div>
           </div>
         </section>
         <section className="anxietate9">
-          <h2>Hai la Sesiunile de Manifestare Constienta!</h2>
+          <h2> Hai la Sesiunile de Manifestare Conștientă!</h2>
           <div className="contact-contact anxi-form-container">
             <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit(onSubmit)}>
               <label htmlFor="name">Nume</label>
@@ -187,26 +186,25 @@ export default function Manifestare() {
             </form>
           </div>
           <div className="text-align-center">
-            <p>*Locul este confirmat dupa inregistrarea platii.</p>
-            <p>Detalii in email-ul de confirmare. Verifica si Spam-ul.</p>
+            <p>*Locul este confirmat după înregistrarea plății.</p>
+            <p>Detalii în email-ul de confirmare. Verifică și Spam-ul.</p>
           </div>
         </section>
         <div className="quote-divider">
           <div className="anxi-container">
-          <p>
-            "Poti sa traiesti orice senzatie doresti, in orice moment doresti. Adesea vei descoperi ca, prin crearea unei anumite trairi in interioare, poti
-            crea un eveniment in afara ta. Acest lucru se intampla deoarece trairile, sentimente, misca energia - iar energia este materia din care este facuta
-            viata."
-          </p>
-          <p>Neale Donald Walsch</p>
+            <p>
+            "Poți să trăiești orice senzație dorești, în orice moment dorești. Adesea vei descoperi că, prin crearea unei anumite trăiri interioare, poți 
+               crea un eveniment în afara ta. Acest lucru se întâmplă deoarece trăirile și sentimentele mișcă energia, iar energia este materia din care este 
+               făcută viață." 
+            </p>
+            <p>Neale Donald Walsch</p>
           </div>
-         
         </div>
         <section className="anxietate10">
           <img src="bani-sticker.svg" alt="retur" />
           <div className="mt15px">
-            <p>*Acest program iti ofera o garantie de 30 de zile in care poti cere banii inapoi.</p>
-            <p>Ganduri bune!</p>
+            <p>*Acest program îți oferă o garanție de 30 de zile în care poți cere banii înapoi</p>
+            <p>Gânduri bune!</p>
           </div>
         </section>
       </div>

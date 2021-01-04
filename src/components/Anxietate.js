@@ -26,7 +26,7 @@ export default function Anxietate() {
         <section className="anxietate1">
           <img className="anxiety1-img" src="anxiety1.png" alt="flower" />
           <h1>Eliberare de anxietate</h1>
-          <p>~Prin meditatatie ghidata~</p>
+          <p>~Prin meditație ghidată~</p>
           <div className="anx1-imgs">
             <div className="anxi11-parent">
               <img
@@ -61,16 +61,16 @@ export default function Anxietate() {
         </div>
         <section className="anxietate2">
           <div className="paragraphs-anxi2 standard-text">
-            <p>- Te vei reconecta la corpul tau si la starea de bine; </p>
-            <p>- Te vei elibera de starea de anxietate prin intermediul meditatiei ghidate;</p>
-            <p>- Vei curata energetic spatiul in care locuiesti, corpul tau dar si anumite situatii care iti provoaca anxietate;</p>
-            <p>- Vei vindeca momentul in care a aparut starea de anxietate alaturi de amintirile care o insotesc;</p>
-            <p>- Iti vei invata subcontientul cum se simte sa traiasca fara anxientate si ca este posibil sa faca asta;</p>
-            <p>- Te vei folosi de imaginatia ta pentru a crea o alta realitate care sa iti aduca bucurie si pace;</p>
-            <p>- Vei folosi recunostinta pentru a manifesta noua ta realitate.</p>
+          <p>- Te vei reconecta la corpul tău și la starea de bine; </p> 
+             <p>- Te vei elibera de starea de anxietate prin intermediul meditației ghidate;</p> 
+             <p>- Vei curăța energetic spațiul în care locuiești, corpul tău dar și anumite situații care îți provoacă anxietate;</p> 
+             <p>- Vei vindeca momentul în care a apărut starea de anxietate alături de amintirile care o însoțesc;</p> 
+             <p>- Îți vei învăța subconștientul cum se simte să trăiască fără anxietate și că este posibil să facă asta;</p> 
+             <p>- Te vei folosi de imaginația ta pentru a crea o altă realitate care să îți aducă bucurie și pace;</p> 
+             <p>- Vei folosi recunoștința pentru a manifesta noua ta realitate.</p>
           </div>
           <div className="flex-center mt30px">
-            <button className="violet-btn">VREAU SI EU</button>
+            <button className="violet-btn">VREAU ȘI EU</button>
           </div>
         </section>
         <section className="anxietate3">
@@ -90,50 +90,50 @@ export default function Anxietate() {
             <h1 className="anxi-title text-align-center">Despre Programul: Eliberarea de Anxietate</h1>
             <h2>Ce este acest program?</h2>
             <div className="standard-text text-align-justify">
-              <p>
-                Acest program este gandit si construit astfel incat tu sa te poti elibera de sentimentul anxietatii si sa te poti reconecta la starea de bucurie
-                si de bine.
-              </p>
-              <p>
-                Am inceput sa experimentez starea de anxietate inca de mic copil insa doar de cativa ani mi-am dat seama cat de mult ma afecteaza la nivel
-                energetic dar si la nivel fizic, experimentand diverse dureri in corpul fizic.
-              </p>
-              <p>
-                Anul acesta am realizat ca corpul meu este dependent de anumite substante chimice care se creeaza in momentul in care simt anxietate. Desi
-                incercam sa vindec efectele anxietatii, am inteles ca vindecarea trebuie sa realizeze in momentul in care aceasta s-a creat pentru prima data.
-                Mai mult, trebuia sa imi invat corpul si mintea cum se simte sa traiasca fara anxietate si fara substantele chimice care se eliminau si cum sa
-                se concentreze asupra unui viitor care imi aduce pace (avand in vedere ca anxietatea fiind cea care se asociaza cu grijile legate de viitor).
-              </p>
-              <p>Am realizat toate acestea prin intermediul meditatiei ghidate combinate cu tehnica ThetaHealing.</p>
-              <p>
-                In acest mod am creat o serie de meditatii care sa te ajute sa vindeci momentul in care ai simtit anxietate pentru prima data, intelegand ca
-                aceasta este doar o senzatie si un comportament pe care l-ai invatat si care poate fi vindecat, urmate apoi de descarcari in mintea subcontienta
-                a unor noi comportamente care sa te invete cum se simte si ca este posibil sa traiesti fara anxietate. Vom crea apoi o noua realitate prin
-                intermediul imaginatiei care sa fie lipsita de anxietate si plina de liniste si bucurie. In final ne vom antrena sa ramanem concentrati asupra
-                noii realitati prin intermediul recunostintei.
-              </p>
+            <p> 
+                 Acest program este gândit și construit astfel încât tu să te poți elibera de sentimentul anxietății și să te poți reconecta la starea de bucurie 
+                 și de bine. 
+               </p> 
+               <p> 
+                 Am început să experimentez starea de anxietate încă de mic copil însă doar de câțiva ani mi-am dat seama cât de mult mă afectează la nivel 
+                 energetic dar și la nivel fizic, experimentând diverse dureri în corpul fizic. 
+               </p> 
+               <p> 
+                 Anul acesta am realizat că corpul meu este dependent de anumite substanțe chimice care se creează în momentul în care simt anxietate. Deși 
+                 încercam să vindec efectele anxietății, am înțeles că vindecarea trebuie să realizeze în momentul în care aceasta s-a creat pentru prima data. 
+                 Mai mult, trebuia să îmi învăț corpul și mintea cum se simte să trăiască fără anxietate și fără substanțele chimice care se eliminau și cum să 
+                 se concentreze asupra unui viitor care îmi aduce pace (având în vedere că anxietatea fiind cea care se asociază cu grijile legate de viitor). 
+               </p> 
+               <p>Am realizat toate acestea prin intermediul meditației ghidate combinate cu tehnică ThetaHealing.</p> 
+               <p> 
+                 În acest mod am creat o serie de meditații care să te ajute să vindeci momentul în care ai simțit anxietate pentru prima data, înțelegând că 
+                 aceasta este doar o senzație și un comportament pe care l-ai învățat și care poate fi vindecat, urmate apoi de descărcări în mintea subconștientă 
+                 a unor noi comportamente care să te învețe cum se simte și că este posibil să trăiești fără anxietate. Vom crea apoi o noua realitate prin 
+                 intermediul imaginației care să fie lipsită de anxietate și plină de liniște și bucurie. În final ne vom antrena să rămânem concentrați asupra 
+                 noii realități prin intermediul recunoștinței. 
+               </p> 
             </div>
 
-            <h2>Cum se desfasoara?</h2>
+            <h2>Cum se desfasoară?</h2>
             <div className="text-align-center">
               <div className="center-but-left">
                 <div className="standard-text">
-                  <p className="first-ul">Prin 5 meditatii ghidate pe care le vei face in ritmul tau.</p>
+                  <p className="first-ul">Prin 5 meditații ghidate pe care le vei face în ritmul tău.</p>
                   <ul>
                     <li>
-                      <span>Meditatie 1:</span> Curatarea energetica a corpului si spatiului in care locuiesti
+                      <span>Meditație 1:</span> Curățarea energetică a corpului și spațiului în care locuieșți
                     </li>
                     <li>
-                      <span>Meditatie 2:</span> Vindecarea momentului in care a aparut anxietatea
+                      <span>Meditație 2:</span> Vindecarea momentului în care a apărut anxietatea
                     </li>
                     <li>
-                      <span>Meditatie 3:</span> Invatam corpul si mintea cum se simte sa traiasca fara anxietate
+                      <span>Meditație 3:</span> Învățăm corpul și mintea cum se simte să trăiască fără anxietate
                     </li>
                     <li>
-                      <span>Meditatie 4:</span> Crearea unui nou viitor prin intermediul imaginatiei
+                      <span>Meditație 4:</span> Crearea unui nou viitor prin intermediul imaginației
                     </li>
                     <li>
-                      <span>Meditatia 5:</span> Concentrarea asupra noului viitor prin intermediul recunostintei
+                      <span>Meditația 5:</span> Concentrarea asupra noului viitor prin intermediul recunoștinței
                     </li>
                   </ul>
                 </div>
@@ -144,62 +144,62 @@ export default function Anxietate() {
             <div className="text-align-center">
               <div className="center-but-left">
                 <div className="standard-text">
-                  <p>- 1 sesiune initiala online si live in care vom povesti despre program si voi raspunde la intrebarile tale;</p>
-                  <p>- 5 meditatii ghidate (intre 20 si 30 de minute fiecare) pe care le vei face in ritmul tau si in linistea casei tale;</p>
-                  <p>- acces la acest program pe viata;</p>
-                  <p>- sustinerea mea pe tot parcursul programului;</p>
-                  <p>- acces la un grup exclusiv pe Facebook in care vei putea impartasi cu ceilalti participanti si aprofunda subiectele.</p>
+                <p>- 1 sesiune inițială online și live în care vom povesti despre program și voi răspunde la întrebările tale;</p> 
+                   <p>- 5 meditații ghidate (între 20 și 30 de minute fiecare) pe care le vei face în ritmul tău și în liniștea casei tale;</p> 
+                   <p>- acces la acest program pe viată;</p> 
+                   <p>- susținerea mea pe tot parcursul programului;</p> 
+                   <p>- acces la un grup exclusiv pe Facebook în care vei putea împărtăși cu ceilalți participanți și aprofunda subiectele.</p> 
                 </div>
               </div>
             </div>
 
             <div className="flex-center mt45px">
-              <button className="violet-btn">VREAU SI EU</button>
+              <button className="violet-btn">VREAU ȘI EU</button>
             </div>
           </div>
         </section>
         <Facilitatoarea/>
         <section className="anxietate6">
-          <h1 className="anxi6-title text-align-center">Intrebari frecvente</h1>
+          <h1 className="anxi6-title text-align-center">Întrebări frecvente</h1>
           <div className="anxi-questions anxi-container">
             <Question
-              question="Cand se desfasoara acest program?"
-              answer="Acest program se desfasoara in perioada 30 Noiembrie - 5 Decembrie
+              question="Când se desfășoară acest program?"
+              answer="Acest program se desfășoară în perioada 30 Noiembrie - 5 Decembrie
 
               Locatie: Online"
               showing="true"
             />
             <Question
-              question="Daca lipsesc de la intalnirea online voi primi inregistrarea meditatiei? "
-              answer="Fii fara griji! Daca se intampla sa lipsesti de la intalnirea online, iti voi da acces la inregistrare."
+              question="Dacă lipsesc de la întâlnirea online voi primi înregistrarea meditației? "
+              answer="Fii fără griji! Dacă se întâmplă să lipsești de la întâlnirea online, îți voi da acces la înregistrare."
             />
             <Question
-              question="Voi putea accesa intalnirea online de pe computer/telefon/tableta? "
-              answer="Da, tot ce trebuie sa faci este sa te asiguri ca ai o buna conexiune la internet."
+              question="Voi putea accesa întâlnirea online de pe computer/telefon/tabletă? "
+              answer="Da, tot ce trebuie să faci este să te asiguri că ai o bună conexiune la internet."
             />
             <Question
-              question="Este rambursabila taxa de inscriere?"
-              answer="In cazul in care intervine ceva neprevazut, poti primi valoarea investita daca aduci un inlocuitor."
+              question="Este rambursabilă taxa de înscriere?"
+              answer="În cazul în care intervine ceva neprevăzut, poți primi valoarea investită dacă aduci un înlocuitor."
             />
           </div>
         </section>        
         <Testimonials2/>
         <section className="anxietate8">
-          <h2 className="text-align-center">Investitie:</h2>
+          <h2 className="text-align-center">Investiție:</h2>
           <div className="text-align-center">
             <div className="center-but-left">
               <div className="standard-text">
                 <p>
                   <span>EARLY BIRD</span>
-                  <strong> 77 RON</strong> pana pe 22 noiembrie.
+                  <strong> 77 RON</strong> până pe 22 noiembrie.
                 </p>
                 <p>
-                  <span>Investitia integrala</span>
-                  <strong> 99 RON</strong> pana pe 27 noiembrie.{" "}
+                  <span>Investiția integrală</span>
+                  <strong> 99 RON</strong> până pe 27 noiembrie.
                 </p>
-                <p>*Plata se face prin transfer bancar, detaliile le primesti pe email dupa inregistrare.</p>
+                <p>*Plata se face prin transfer bancar, detaliile le primești pe email după înregistrare.</p>
                 <p>
-                  <strong>Grabeste-te, locurile sunt limitate!</strong>
+                  <strong>Grăbește-te, locurile sunt limitate!</strong>
                 </p>
               </div>
             </div>
@@ -226,15 +226,15 @@ export default function Anxietate() {
             
           </div>
           <div className="text-align-center">
-            <p>*Locul este confirmat dupa inregistrarea platii.</p>
-            <p>Detalii in email-ul de confirmare. Verifica si Spam-ul.</p>
+            <p>*Locul este confirmat după înregistrarea plății.</p>
+            <p>Detalii în email-ul de confirmare. Verifică și Spam-ul.</p>
             </div>
         </section>
         <section className="anxietate10">
                 <img src="bani-sticker.svg" alt="retur"/>
                 <div className="mt15px">
-                <p>*Acest program iti ofera o garantie de 30 de zile in care poti cere banii inapoi.</p>
-                <p>Ganduri bune!</p>
+                <p>*Acest program îți oferă o garanție de 30 de zile în care poți cere banii înapoi.</p>
+                <p>Gânduri bune!</p>
                 </div>              
         </section>
       </div>
