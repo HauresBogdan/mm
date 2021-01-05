@@ -21,12 +21,13 @@ function Medidate() {
                   Programul îți oferă posibilitatea de a face parte dintr-un grup care se întâlnește în mediul virtual pentru a medita. Scopul acestei practici
                   este de a crea un spațiu în care tu să poți să îți liniștești mintea și în care să îți setezi intenția de a fi centrat în momentul prezent.
                 </p> */}
-                <p>este GRATUIT</p>
+              
               </div>
 
               <div className="center">
                 <button className="violet-btn mt1">Programează o ședință</button>
               </div>
+              <p>este GRATUIT</p>
             </div>
           </div>
         </section>

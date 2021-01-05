@@ -25,7 +25,7 @@ function Contact() {
         <div className="th-banner">
           <h1 className="th-container">Medidate</h1>
         </div>
-        <section className="thp-hero">
+        <section className="thp-hero background-contact">
           <div className="contact-and-text th-container">
             <div className="contact-contact form-container">
               <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit(onSubmit)}>

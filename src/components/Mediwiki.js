@@ -63,11 +63,11 @@ function Mediwiki() {
       <Cursuri />
       <CuratareEnergetica />
 
-      <SmallDivider2
+      {/* <SmallDivider2
         header="Sunt aici să îți spun"
         text="Când începi să constientizezi și să te încrezi că ceea ce îți spune inima ta că este adevarat,
       atunci ai intrat în legătură directă cu adâncurile intuiției tale care curge prin tot corpul tău."
-      />
+      /> */}
 
       <section className="main">
         <div className="call-to-action">

@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+.background-contact {
+    background: #FAF4F9;
+}
+
 .display-block {
     display: block;
 }
