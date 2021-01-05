@@ -1,7 +1,7 @@
 import className from "classnames";
 import { useState, useEffect } from "react";
 import useWindowSize from "../hooks/useWindowSize";
-import SmallDivider2 from "./SmallDivider2";
+// import SmallDivider2 from "./SmallDivider2";
 import CuratareEnergetica from "./CuratareEnergetica";
 import Cursuri from "./Cursuri";
 
