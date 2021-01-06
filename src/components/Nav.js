@@ -22,10 +22,10 @@ function Nav() {
 
         <ul className={classNames('', { 'nav-active': phoneMenu===true })}>
           <li>
-            <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/" })} to="/">HOME</Link>
+            <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/" })} to="/" onClick={showPhoneMenu}>HOME</Link>
           </li>
           <li>
-            <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/About" })} to="/About">DESPRE MINE</Link>
+            <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/About" })} to="/About" onClick={showPhoneMenu}>DESPRE MINE</Link>
           </li>
           <li className="dropdown" onClick={()=>setHideDropDown(!hideDropDows)} >
             <span className={classNames('nav-link',
@@ -45,7 +45,7 @@ function Nav() {
           </div>
           </li>
           <li>
-            <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/Contact" })} to="/Contact">CONTACT</Link>
+            <Link className={classNames('nav-link', { 'nav-location': location.pathname==="/Contact" })} to="/Contact" onClick={showPhoneMenu}>CONTACT</Link>
           </li>
         </ul>
         <div className={classNames('burger', { 'toggle': phoneMenu===true })} onClick={showPhoneMenu}>

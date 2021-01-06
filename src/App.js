@@ -10,6 +10,7 @@ import Home from "./components/Home";
 import Anxietate from "./components/Anxietate";
 import Manifestare from "./components/Manifestare";
 import Comunitate from "./components/Comunitate";
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Nav />
         <Switch>
+        <ScrollToTop>
           <Route path="/" exact component={Home} />
           <Route path="/About" component={About} />
           <Route path="/ThetaHealing" component={ThetaHealing} />
@@ -26,6 +28,7 @@ function App() {
           <Route path="/Anxietate" component={Anxietate} />
           <Route path="/Manifestare" component={Manifestare} />
           <Route path="/Comunitate" component={Comunitate} />
+          </ScrollToTop>
         </Switch>
       </Router>
     </div>
