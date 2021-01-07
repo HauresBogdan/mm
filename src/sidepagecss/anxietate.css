@@ -494,3 +494,14 @@
 
     height: 200px;
 }
+
+.signup-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.success-msg {
+    text-align: center;
+    color: green;
+    font-weight: 600;
+}

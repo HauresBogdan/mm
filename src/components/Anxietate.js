@@ -1,27 +1,45 @@
 import Footer from "./Footer";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import classNames from "classnames";
 import "../sidepagecss/thetahealing.css";
 import "../sidepagecss/anxietate.css";
 import "../sidepagecss/contact.css";
 import Question from "./Question";
 
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 import Facilitatoarea from "./Facilitatoarea.js";
 import Testimonials2 from "./Testimonials2.js";
 
 export default function Anxietate() {
   const [anxi11Hover, setAnxi11Hover] = useState(false);
   const [anxi12Hover, setAnxi12Hover] = useState(false);
-  const { register, handleSubmit, errors } = useForm(); // initialize the hook
+  // const { register, handleSubmit, errors } = useForm(); // initialize the hook
 
-  const onSubmit = (data) => {
-    console.log(data);
-  };
+  // const onSubmit = (data) => {
+  //   console.log(data);
+  // };
 
+  useEffect(() => {
+    const js = `
+      function ml_webform_success_3305692() {
+        var $ = ml_jQuery || jQuery;
+        $('.ml-subscribe-form-3305692 .ml-block-success').show();
+        $('.ml-subscribe-form-3305692 .ml-block-form').hide();
+      };
+    `;
+    const script = document.createElement("script");
+    const scriptText = document.createTextNode(js);
+    script.appendChild(scriptText);
+    document.body.appendChild(script);
+
+    const script2 = document.createElement("script");
+    script2.src = "https://static.mailerlite.com/js/w/webforms.min.js?v28bf44f740701752bfc6767bc7e171d4";
+    document.body.appendChild(script2);
+  }, []);
+
+ 
   return (
     <>
-      {" "}
       <div className="anxietate">
         <section className="anxietate1">
           <img className="anxiety1-img" src="anxiety1.png" alt="flower" />
@@ -61,13 +79,13 @@ export default function Anxietate() {
         </div>
         <section className="anxietate2">
           <div className="paragraphs-anxi2 standard-text">
-          <p>- Te vei reconecta la corpul tău și la starea de bine; </p> 
-             <p>- Te vei elibera de starea de anxietate prin intermediul meditației ghidate;</p> 
-             <p>- Vei curăța energetic spațiul în care locuiești, corpul tău dar și anumite situații care îți provoacă anxietate;</p> 
-             <p>- Vei vindeca momentul în care a apărut starea de anxietate alături de amintirile care o însoțesc;</p> 
-             <p>- Îți vei învăța subconștientul cum se simte să trăiască fără anxietate și că este posibil să facă asta;</p> 
-             <p>- Te vei folosi de imaginația ta pentru a crea o altă realitate care să îți aducă bucurie și pace;</p> 
-             <p>- Vei folosi recunoștința pentru a manifesta noua ta realitate.</p>
+            <p>- Te vei reconecta la corpul tău și la starea de bine; </p>
+            <p>- Te vei elibera de starea de anxietate prin intermediul meditației ghidate;</p>
+            <p>- Vei curăța energetic spațiul în care locuiești, corpul tău dar și anumite situații care îți provoacă anxietate;</p>
+            <p>- Vei vindeca momentul în care a apărut starea de anxietate alături de amintirile care o însoțesc;</p>
+            <p>- Îți vei învăța subconștientul cum se simte să trăiască fără anxietate și că este posibil să facă asta;</p>
+            <p>- Te vei folosi de imaginația ta pentru a crea o altă realitate care să îți aducă bucurie și pace;</p>
+            <p>- Vei folosi recunoștința pentru a manifesta noua ta realitate.</p>
           </div>
           <div className="flex-center mt30px">
             <button className="violet-btn">VREAU ȘI EU</button>
@@ -90,28 +108,28 @@ export default function Anxietate() {
             <h1 className="anxi-title text-align-center">Despre Programul: Eliberarea de Anxietate</h1>
             <h2>Ce este acest program?</h2>
             <div className="standard-text text-align-justify">
-            <p> 
-                 Acest program este gândit și construit astfel încât tu să te poți elibera de sentimentul anxietății și să te poți reconecta la starea de bucurie 
-                 și de bine. 
-               </p> 
-               <p> 
-                 Am început să experimentez starea de anxietate încă de mic copil însă doar de câțiva ani mi-am dat seama cât de mult mă afectează la nivel 
-                 energetic dar și la nivel fizic, experimentând diverse dureri în corpul fizic. 
-               </p> 
-               <p> 
-                 Anul acesta am realizat că corpul meu este dependent de anumite substanțe chimice care se creează în momentul în care simt anxietate. Deși 
-                 încercam să vindec efectele anxietății, am înțeles că vindecarea trebuie să realizeze în momentul în care aceasta s-a creat pentru prima data. 
-                 Mai mult, trebuia să îmi învăț corpul și mintea cum se simte să trăiască fără anxietate și fără substanțele chimice care se eliminau și cum să 
-                 se concentreze asupra unui viitor care îmi aduce pace (având în vedere că anxietatea fiind cea care se asociază cu grijile legate de viitor). 
-               </p> 
-               <p>Am realizat toate acestea prin intermediul meditației ghidate combinate cu tehnică ThetaHealing.</p> 
-               <p> 
-                 În acest mod am creat o serie de meditații care să te ajute să vindeci momentul în care ai simțit anxietate pentru prima data, înțelegând că 
-                 aceasta este doar o senzație și un comportament pe care l-ai învățat și care poate fi vindecat, urmate apoi de descărcări în mintea subconștientă 
-                 a unor noi comportamente care să te învețe cum se simte și că este posibil să trăiești fără anxietate. Vom crea apoi o noua realitate prin 
-                 intermediul imaginației care să fie lipsită de anxietate și plină de liniște și bucurie. În final ne vom antrena să rămânem concentrați asupra 
-                 noii realități prin intermediul recunoștinței. 
-               </p> 
+              <p>
+                Acest program este gândit și construit astfel încât tu să te poți elibera de sentimentul anxietății și să te poți reconecta la starea de bucurie
+                și de bine.
+              </p>
+              <p>
+                Am început să experimentez starea de anxietate încă de mic copil însă doar de câțiva ani mi-am dat seama cât de mult mă afectează la nivel
+                energetic dar și la nivel fizic, experimentând diverse dureri în corpul fizic.
+              </p>
+              <p>
+                Anul acesta am realizat că corpul meu este dependent de anumite substanțe chimice care se creează în momentul în care simt anxietate. Deși
+                încercam să vindec efectele anxietății, am înțeles că vindecarea trebuie să realizeze în momentul în care aceasta s-a creat pentru prima data.
+                Mai mult, trebuia să îmi învăț corpul și mintea cum se simte să trăiască fără anxietate și fără substanțele chimice care se eliminau și cum să
+                se concentreze asupra unui viitor care îmi aduce pace (având în vedere că anxietatea fiind cea care se asociază cu grijile legate de viitor).
+              </p>
+              <p>Am realizat toate acestea prin intermediul meditației ghidate combinate cu tehnică ThetaHealing.</p>
+              <p>
+                În acest mod am creat o serie de meditații care să te ajute să vindeci momentul în care ai simțit anxietate pentru prima data, înțelegând că
+                aceasta este doar o senzație și un comportament pe care l-ai învățat și care poate fi vindecat, urmate apoi de descărcări în mintea
+                subconștientă a unor noi comportamente care să te învețe cum se simte și că este posibil să trăiești fără anxietate. Vom crea apoi o noua
+                realitate prin intermediul imaginației care să fie lipsită de anxietate și plină de liniște și bucurie. În final ne vom antrena să rămânem
+                concentrați asupra noii realități prin intermediul recunoștinței.
+              </p>
             </div>
 
             <h2>Cum se desfasoară?</h2>
@@ -144,11 +162,11 @@ export default function Anxietate() {
             <div className="text-align-center">
               <div className="center-but-left">
                 <div className="standard-text">
-                <p>- 1 sesiune inițială online și live în care vom povesti despre program și voi răspunde la întrebările tale;</p> 
-                   <p>- 5 meditații ghidate (între 20 și 30 de minute fiecare) pe care le vei face în ritmul tău și în liniștea casei tale;</p> 
-                   <p>- acces la acest program pe viată;</p> 
-                   <p>- susținerea mea pe tot parcursul programului;</p> 
-                   <p>- acces la un grup exclusiv pe Facebook în care vei putea împărtăși cu ceilalți participanți și aprofunda subiectele.</p> 
+                  <p>- 1 sesiune inițială online și live în care vom povesti despre program și voi răspunde la întrebările tale;</p>
+                  <p>- 5 meditații ghidate (între 20 și 30 de minute fiecare) pe care le vei face în ritmul tău și în liniștea casei tale;</p>
+                  <p>- acces la acest program pe viată;</p>
+                  <p>- susținerea mea pe tot parcursul programului;</p>
+                  <p>- acces la un grup exclusiv pe Facebook în care vei putea împărtăși cu ceilalți participanți și aprofunda subiectele.</p>
                 </div>
               </div>
             </div>
@@ -158,7 +176,7 @@ export default function Anxietate() {
             </div>
           </div>
         </section>
-        <Facilitatoarea/>
+        <Facilitatoarea />
         <section className="anxietate6">
           <h1 className="anxi6-title text-align-center">Întrebări frecvente</h1>
           <div className="anxi-questions anxi-container">
@@ -182,8 +200,8 @@ export default function Anxietate() {
               answer="În cazul în care intervine ceva neprevăzut, poți primi valoarea investită dacă aduci un înlocuitor."
             />
           </div>
-        </section>        
-        <Testimonials2/>
+        </section>
+        <Testimonials2 />
         <section className="anxietate8">
           <h2 className="text-align-center">Investiție:</h2>
           <div className="text-align-center">
@@ -208,34 +226,61 @@ export default function Anxietate() {
         <section className="anxietate9">
           <h2>Elibereaza-te de Anxietate!</h2>
           <div className="contact-contact anxi-form-container">
-            <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit(onSubmit)}>
-              <label htmlFor="name">Nume</label>
-              <div className="contact-errors">
-                <p>{errors.name && "Nu ai introdus numele"}</p>
+            <div id="mlb2-3305692" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-3305692">
+              <div className="ml-vertical-align-center">
+                <div className="subscribe-form ml-block-success" style={{ display: "none" }}>
+                  <div className="form-section">
+                    <p className="success-msg">Mulțumesc pentru înscriere, un mail a fost trimis către adresa menționată. Verifică și Spam-ul!</p>
+                  </div>
+                </div>
+                <form className="ml-block-form" action="https://static.mailerlite.com/webforms/submit/h2d6y3" data-id="h2d6y3" data-code="h2d6y3" method="POST" target="_blank">
+                  <p className="signup-title">
+                    Înscriete în lista pentru anunțuturi ca să primești instrucțiunile cu următori pași pentru a beneficia de acest program!
+                  </p>
+                  <div className="subscribe-form">
+                    <div className="form-section">
+                      <div className="form-group ml-field-email ml-validate-required ml-validate-email">
+                        <input
+                          type="email"
+                          name="fields[email]"
+                          className="form-control signup-text"
+                          placeholder="Email address"
+                          autoComplete="email"
+                          spellCheck="false"
+                          autoCapitalize="off"
+                          autoCorrect="off"
+                        />
+                        <input type="hidden" name="ml-submit" value="1" />
+
+                        <div className="flex-center mt30px">
+                          <button type="submit" className="primary signup-button violet-btn">
+                            INREGISTRARE
+                          </button>
+                        </div>
+
+                        <div className="flex-center">
+                          <button disabled style={{ display: "none" }} type="button" className="loading violet-btn">
+                            SE TRIMITE...
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
-              <input type="text" id="name" name="name" placeholder="Nume" ref={register({ required: true })} />
-              <label htmlFor="email">Email</label>
-              <div className="contact-errors">
-                <p>{errors.email && "Email invalid"}</p>
-              </div>
-              <input type="email" id="email" name="email" placeholder="Email.." ref={register({ required: true, pattern: /\S+@\S+\.\S+/ })} />
-              <button className="violet-btn" type="submit">
-                Trimite
-              </button>
-            </form>           
-            
+            </div>
           </div>
           <div className="text-align-center">
             <p>*Locul este confirmat după înregistrarea plății.</p>
             <p>Detalii în email-ul de confirmare. Verifică și Spam-ul.</p>
-            </div>
+          </div>
         </section>
         <section className="anxietate10">
-                <img src="bani-sticker.svg" alt="retur"/>
-                <div className="mt15px">
-                <p>*Acest program îți oferă o garanție de 30 de zile în care poți cere banii înapoi.</p>
-                <p>Gânduri bune!</p>
-                </div>              
+          <img src="bani-sticker.svg" alt="retur" />
+          <div className="mt15px">
+            <p>*Acest program îți oferă o garanție de 30 de zile în care poți cere banii înapoi.</p>
+            <p>Gânduri bune!</p>
+          </div>
         </section>
       </div>
       <Footer />
