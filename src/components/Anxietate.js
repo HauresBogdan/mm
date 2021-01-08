@@ -5,19 +5,13 @@ import "../sidepagecss/thetahealing.css";
 import "../sidepagecss/anxietate.css";
 import "../sidepagecss/contact.css";
 import Question from "./Question";
-
-// import { useForm } from "react-hook-form";
 import Facilitatoarea from "./Facilitatoarea.js";
 import Testimonials2 from "./Testimonials2.js";
 
 export default function Anxietate() {
   const [anxi11Hover, setAnxi11Hover] = useState(false);
   const [anxi12Hover, setAnxi12Hover] = useState(false);
-  // const { register, handleSubmit, errors } = useForm(); // initialize the hook
 
-  // const onSubmit = (data) => {
-  //   console.log(data);
-  // };
 
   useEffect(() => {
     const js = `
@@ -35,6 +29,7 @@ export default function Anxietate() {
     const script2 = document.createElement("script");
     script2.src = "https://static.mailerlite.com/js/w/webforms.min.js?v28bf44f740701752bfc6767bc7e171d4";
     document.body.appendChild(script2);
+    console.log("success");
   }, []);
 
  

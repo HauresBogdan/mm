@@ -5,16 +5,30 @@ import "../sidepagecss/manifestare.css";
 import "../sidepagecss/comunitate.css";
 import "../sidepagecss/contact.css";
 import Question from "./Question";
-import { useForm } from "react-hook-form";
 import Facilitatoarea from "./Facilitatoarea.js";
+import { useEffect } from "react";
 
 export default function Comunitate() {
-  const { register, handleSubmit, errors } = useForm(); // initialize the hook
 
-  const onSubmit = (data) => {
-    console.log(data);
-  };
+  useEffect(() => {
+    const js = `
+      function ml_webform_success_3321802() {
+        var $ = ml_jQuery || jQuery;
+        $('.ml-subscribe-form-3321802 .ml-block-success').show();
+        $('.ml-subscribe-form-3321802 .ml-block-form').hide();
+      };
+    `;
+    const script = document.createElement("script");
+    const scriptText = document.createTextNode(js);
+    script.appendChild(scriptText);
+    document.body.appendChild(script);
 
+    const script2 = document.createElement("script");
+    script2.src = "https://static.mailerlite.com/js/w/webforms.min.js?v28bf44f740701752bfc6767bc7e171d4";
+    document.body.appendChild(script2);
+    console.log("success");
+  }, []);
+ 
   return (
     <>
       <div className="anxietate">
@@ -187,21 +201,49 @@ export default function Comunitate() {
         <section className="anxietate9">
           <h2>Fii parte din Comunitatea Gandurilor Pozitive!</h2>
           <div className="contact-contact anxi-form-container">
-            <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit(onSubmit)}>
-              <label htmlFor="name">Nume</label>
-              <div className="contact-errors">
-                <p>{errors.name && "Nu ai introdus numele"}</p>
+          <div id="mlb2-3321802" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-3321802">
+              <div className="ml-vertical-align-center">
+                <div className="subscribe-form ml-block-success" style={{ display: "none" }}>
+                  <div className="form-section">
+                    <p className="success-msg">Mulțumesc pentru înscriere, un mail a fost trimis către adresa menționată. Verifică și Spam-ul!</p>
+                  </div>
+                </div>
+                <form className="ml-block-form" action="https://static.mailerlite.com/webforms/submit/k1x7l7" data-id="k1x7l7" data-code="k1x7l7" method="POST" target="_blank">
+                  <p className="signup-title">
+                    Înscriete în lista pentru anunțuturi ca să primești instrucțiunile cu următori pași pentru a beneficia de acest program!
+                  </p>
+                  <div className="subscribe-form">
+                    <div className="form-section">
+                      <div className="form-group ml-field-email ml-validate-required ml-validate-email">
+                        <input
+                          type="email"
+                          name="fields[email]"
+                          className="form-control signup-text"
+                          placeholder="Email address"
+                          autoComplete="email"
+                          spellCheck="false"
+                          autoCapitalize="off"
+                          autoCorrect="off"
+                        />
+                        <input type="hidden" name="ml-submit" value="1" />
+
+                        <div className="flex-center mt30px">
+                          <button type="submit" className="primary signup-button violet-btn">
+                            INREGISTRARE
+                          </button>
+                        </div>
+
+                        <div className="flex-center">
+                          <button disabled style={{ display: "none" }} type="button" className="loading violet-btn">
+                            SE TRIMITE...
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
-              <input type="text" id="name" name="name" placeholder="Nume" ref={register({ required: true })} />
-              <label htmlFor="email">Email</label>
-              <div className="contact-errors">
-                <p>{errors.email && "Email invalid"}</p>
-              </div>
-              <input type="email" id="email" name="email" placeholder="Email.." ref={register({ required: true, pattern: /\S+@\S+\.\S+/ })} />
-              <button className="violet-btn" type="submit">
-                Trimite
-              </button>
-            </form>
+            </div>
           </div>
           <div className="text-align-center">
             <p>*Locul este confirmat după înregistrarea plății.</p>

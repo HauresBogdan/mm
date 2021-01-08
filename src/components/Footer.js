@@ -24,7 +24,7 @@ export default function Footer() {
               </div>
               <p className="mt10px ">
                 <Link className="footer-contact-link" to="/Comunitate">
-                ✨ Comunitatea Gandurilor pozitive 
+                ✨ Comunitatea Gândurilor pozitive 
                 </Link>
               </p>
              
