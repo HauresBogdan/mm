@@ -9,7 +9,7 @@ export default function Testimonials2()
           <div className="anxi-container7">
             <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showStatus={false} autoPlay={true} interval={6100}>
               <div>
-                <img src="t1.jpg" alt="test" />
+                <img src="woman2s.png" alt="test" />
                 <div className="myCarousel">
                   <h3>Elena V.</h3>
                   <h4>Medic</h4>
@@ -21,7 +21,7 @@ export default function Testimonials2()
               </div>
 
               <div>
-                <img src="t3.jpg" alt="test" />
+                <img src="woman1s.png" alt="test" />
                 <div className="myCarousel">
                   <h3>Bianca M.</h3>
                   <h4>Ilustratoare</h4>
