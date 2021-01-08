@@ -260,4 +260,21 @@
     padding: 0 5%;
 }
 
+.mymodal p {
+    padding: 25px 45px;
+    
+}
+
+
+
+.black-links {
+    color: black;
+}
+
+.black-links:hover {
+    color: #850F43;
+    font-weight: 900;
+}
+
+
 

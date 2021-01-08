@@ -45,9 +45,9 @@ function Nav() {
             <span className={classNames('nav-link',
              { 'nav-location': location.pathname==="/ThetaHealing" || location.pathname==="/Curatare" || location.pathname==="/Medidate" })} >ȘEDINTE TERAPIE</span>
             <div className={classNames('dropdown-content',{'hideDropdown': hideDropDows})}  onMouseEnter={()=>setHideDropDown(false)} onMouseLeave={()=>setHideDropDown(true)}>
-            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/ThetaHealing" })} to="/ThetaHealing" onClick={showPhoneMenu}>Terapie Thetahealing</Link></p>
-            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Curatare" })} to="/Curatare" onClick={showPhoneMenu}>Curatare energetica</Link></p>
-            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Medidata" })} to="/Medidate" onClick={showPhoneMenu}>Medidate</Link></p>
+            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/ThetaHealing" })} to="/ThetaHealing" onClick={showPhoneMenu}>Terapie ThetaHealing</Link></p>
+            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Curatare" })} to="/Curatare" onClick={showPhoneMenu}>Curățare energetică</Link></p>
+            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Medidata" })} to="/Medidate" onClick={showPhoneMenu}>MediDate</Link></p>
           </div>
           </li>
           <li className="dropdown" onClick={()=>setHideDropDown2(!hideDropDows2)} >
@@ -56,6 +56,7 @@ function Nav() {
             <div className={classNames('dropdown-content',{'hideDropdown': hideDropDows2})}  onMouseEnter={()=>setHideDropDown2(false)} onMouseLeave={()=>setHideDropDown2(true)}>
             <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Anxietate" })} to="/Anxietate" onClick={showPhoneMenu}>Eliberare de Anxietate</Link></p>
             <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Manifestare" })} to="/Manifestare" onClick={showPhoneMenu}>Sesiuni de Manifestare</Link></p>
+            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Comunitate" })} to="/Comunitate" onClick={showPhoneMenu}>Comunitatea găndurilor pozitive</Link></p> 
           </div>
           </li>
           <li>

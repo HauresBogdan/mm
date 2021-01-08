@@ -2,10 +2,18 @@ import Footer from "./Footer";
 import "../sidepagecss/about.css";
 import { useState } from "react";
 import { Zoom } from "react-slideshow-image";
+import classNames from 'classnames';
+import {Link} from "react-router-dom";
 
 function About() {
   const [switcharu, setSwitcharu] = useState(false);
   const images = ["a3-1-16-9.jpg", "a3-2-16-9.jpg", "a3-3-16-9.jpg"];
+
+  const [hideModal,setHideModal] = useState(true);
+
+  function toggleModal() {
+    setHideModal(!hideModal);
+  }
 
   const Slideshow = () => {
     return (
@@ -27,6 +35,11 @@ function About() {
     scale: 0.4,
     arrows: true,
   };
+
+function openMenu() {
+  setHideModal(false);
+}
+
   return (
     <div className="about">
       <div className="about-banner">
@@ -90,10 +103,19 @@ function About() {
         <div className="about-banner3">
         <div className="container">
         <p className="about-last-p">Deci, dacă și tu ești pregătit să te uiți în interior ca să te vindeci și să experimentezi puterea iubirii infinite</p>
-        <button className="violet-btn">Hai să începem</button>
+        <button className="violet-btn" onClick={openMenu}>Hai să începem</button>
         </div>
         </div>        
       </section>
+
+      <div className={classNames('mymodal-bg',{'activate': hideModal===false})}>
+      <div className="mymodal">
+          <p onClick={toggleModal}><Link className="footer-contact-link black-links" to="/ThetaHealing">ThetaHealing</Link></p>
+          <p onClick={toggleModal}><Link className="footer-contact-link black-links" to="/Curatare">Curățare Energetică</Link></p>
+          <p onClick={toggleModal}><Link className="footer-contact-link black-links" to="/Medidate">MediDate</Link></p>        
+          <span className="mymodal-close" onClick={toggleModal}>X</span>
+      </div>
+  </div>
 
       <Footer />
     </div>

@@ -8,6 +8,7 @@ import Question from "./Question";
 import Facilitatoarea from "./Facilitatoarea.js";
 import Testimonials2 from "./Testimonials2.js";
 import { useEffect } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Manifestare() {
   // const { register, handleSubmit, errors } = useForm(); // initialize the hook
@@ -32,7 +33,7 @@ export default function Manifestare() {
     const script2 = document.createElement("script");
     script2.src = "https://static.mailerlite.com/js/w/webforms.min.js?v28bf44f740701752bfc6767bc7e171d4";
     document.body.appendChild(script2);
-    console.log("success");
+    
   }, []);
 
   return (
@@ -70,7 +71,9 @@ export default function Manifestare() {
             <p>- Vei folosi recunoștință pentru a manifesta noua ta realitate.</p>
           </div>
           <div className="flex-center mt30px">
-            <button className="violet-btn">VREAU ȘI EU</button>
+            <button className="violet-btn"><Link className="footer-contact-link" to="/Anxietate#formular">
+            VREAU ȘI EU
+                </Link></button>
           </div>
         </section>
         <section className="anxietate3">
@@ -137,7 +140,9 @@ export default function Manifestare() {
             </div>
 
             <div className="flex-center mt45px">
-              <button className="violet-btn">Ma înscriu</button>
+              <button className="violet-btn"><Link className="footer-contact-link" to="/Anxietate#formular">
+              Ma înscriu
+                </Link></button>
             </div>
           </div>
         </section>
@@ -180,7 +185,7 @@ export default function Manifestare() {
                 </p>
                 <p>*Plata se face prin transfer bancar, detaliile le primești pe email după înregistrare.</p>
                 <p>
-                  <strong>Grăbește-te, locurile sunt limitate!</strong>
+                  <strong id="formular">Grăbește-te, locurile sunt limitate!</strong>
                 </p>
               </div>
             </div>
@@ -189,6 +194,8 @@ export default function Manifestare() {
         <section className="anxietate9">
           <h2> Hai la Sesiunile de Manifestare Conștientă!</h2>
           <div className="contact-contact anxi-form-container">
+
+
           <div id="mlb2-3321610" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-3321610">
               <div className="ml-vertical-align-center">
                 <div className="subscribe-form ml-block-success" style={{ display: "none" }}>
@@ -196,12 +203,30 @@ export default function Manifestare() {
                     <p className="success-msg">Mulțumesc pentru înscriere, un mail a fost trimis către adresa menționată. Verifică și Spam-ul!</p>
                   </div>
                 </div>
-                <form className="ml-block-form" action="https://static.mailerlite.com/webforms/submit/c1f7c2" data-id="c1f7c2" data-code="c1f7c2" method="POST" target="_blank">
+                <form
+                  className="ml-block-form"
+                  action="https://static.mailerlite.com/webforms/submit/c1f7c2" data-id="c1f7c2" data-code="c1f7c2"
+                  method="POST"
+                  target="_blank"
+                >
                   <p className="signup-title">
                     Înscriete în lista pentru anunțuturi ca să primești instrucțiunile cu următori pași pentru a beneficia de acest program!
                   </p>
                   <div className="subscribe-form">
                     <div className="form-section">
+                      <div className="ml-field-group ml-field-name ml-validate-required">
+                        <input
+                          type="text"
+                          className="form-control"
+                          data-inputmask=""
+                          name="fields[name]"
+                          placeholder="Nume și prenume"
+                          autoComplete="name"
+                          spellCheck="false"
+                          autoCapitalize="off"
+                          autoCorrect="off"
+                        />
+                      </div>
                       <div className="form-group ml-field-email ml-validate-required ml-validate-email">
                         <input
                           type="email"
@@ -213,25 +238,26 @@ export default function Manifestare() {
                           autoCapitalize="off"
                           autoCorrect="off"
                         />
-                        <input type="hidden" name="ml-submit" value="1" />
+                      </div>
+                      <input type="hidden" name="ml-submit" value="1" />
 
-                        <div className="flex-center mt30px">
-                          <button type="submit" className="primary signup-button violet-btn">
-                            INREGISTRARE
-                          </button>
-                        </div>
+                      <div className="flex-center mt30px">
+                        <button type="submit" className="primary signup-button violet-btn">
+                          INREGISTRARE
+                        </button>
+                      </div>
 
-                        <div className="flex-center">
-                          <button disabled style={{ display: "none" }} type="button" className="loading violet-btn">
-                            SE TRIMITE...
-                          </button>
-                        </div>
+                      <div className="flex-center">
+                        <button disabled style={{ display: "none" }} type="button" className="loading violet-btn">
+                          SE TRIMITE...
+                        </button>
                       </div>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
+
           </div>
           <div className="text-align-center">
             <p>*Locul este confirmat după înregistrarea plății.</p>

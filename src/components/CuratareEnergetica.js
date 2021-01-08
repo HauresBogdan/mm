@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function CuratareEnergetica() {
   return (
     <>
@@ -11,7 +13,7 @@ export default function CuratareEnergetica() {
            Eliberează-te de stări care nu îți apartin
           </p>
           <p>Adu inspirația și creativitatea în spațiul în care locuiești</p>
-          <button className="violet-btn" >Vreau Și Eu</button>
+          <button className="violet-btn" ><Link className="footer-contact-link" to="/Curatare">Vreau Și Eu</Link></button>
         </div>
         
       </div>

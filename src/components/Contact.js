@@ -23,7 +23,7 @@ function Contact() {
     <>
       <section className="th-sec">
         <div className="th-banner">
-          <h1 className="th-container">Medidate</h1>
+          <h1 className="th-container">Contact</h1>
         </div>
         <section className="thp-hero background-contact">
           <div className="contact-and-text th-container">

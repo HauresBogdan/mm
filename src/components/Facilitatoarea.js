@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 export default function Facilitatoarea() {
     return (
         <>
@@ -17,7 +18,7 @@ export default function Facilitatoarea() {
                  blocajele mentale care le limitează viața de zi cu zi și să își descopere puterea personală folosind propriile lor resurse. 
               </p>
               <div className="mt35px center-on-m">
-                <button className="violet-btn">Mai mult despre Mihaela</button>
+                <button className="violet-btn"><Link className="footer-contact-link" to="/About">Mai mult despre Mihaela</Link></button>
               </div>
             </div>
           </div>

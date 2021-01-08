@@ -4,6 +4,7 @@ import useWindowSize from "../hooks/useWindowSize";
 // import SmallDivider2 from "./SmallDivider2";
 import CuratareEnergetica from "./CuratareEnergetica";
 import Cursuri from "./Cursuri";
+import { Link } from "react-router-dom";
 
 function Mediwiki() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -74,7 +75,7 @@ function Mediwiki() {
           <h1>Te invit să medităm împreună!</h1>
           <p>Meditația reduce starea de stres și anxietate, întărește sistemul imunitar, îmbunătățește capacitatea de concentrare și ajută la creșterea nivelului de energie.</p>
           <p></p>
-          <button className="violet-btn">Rezervă locul acum</button>
+          <button className="violet-btn"><Link className="footer-contact-link" to="/Medidate">Rezervă locul acum</Link></button>
         </div>
         <div className="img-div">
           <img className="main-img" src="heroimage2.png" alt="hero" onMouseOver={changeDiamond} onMouseLeave={returnDiamond} />

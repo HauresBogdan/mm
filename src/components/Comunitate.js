@@ -7,9 +7,9 @@ import "../sidepagecss/contact.css";
 import Question from "./Question";
 import Facilitatoarea from "./Facilitatoarea.js";
 import { useEffect } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Comunitate() {
-
   useEffect(() => {
     const js = `
       function ml_webform_success_3321802() {
@@ -26,9 +26,9 @@ export default function Comunitate() {
     const script2 = document.createElement("script");
     script2.src = "https://static.mailerlite.com/js/w/webforms.min.js?v28bf44f740701752bfc6767bc7e171d4";
     document.body.appendChild(script2);
-    console.log("success");
+    
   }, []);
- 
+
   return (
     <>
       <div className="anxietate">
@@ -88,7 +88,8 @@ export default function Comunitate() {
                 <h2>Îmbunătățirea Calității Vieții</h2>
                 <p>
                   Afirmațiile pozitive și schimbările de perspectivă asupra situațiilor din viața ta vor crește nivelul tău energetic și vor îmbunătăți
-                  calitatea gândurilor și a sentimentelor tale. Toate acestea se vor reflecta în realitatea pe care tu o trăiești și care se va îmbunătăți treptat.
+                  calitatea gândurilor și a sentimentelor tale. Toate acestea se vor reflecta în realitatea pe care tu o trăiești și care se va îmbunătăți
+                  treptat.
                 </p>
               </div>
               <div className="img-com-parrent">
@@ -110,7 +111,11 @@ export default function Comunitate() {
             </div>
           </div>
           <div className="flex-center mt30px">
-            <button className="violet-btn">VREAU ȘI EU</button>
+            <button className="violet-btn">
+              <Link className="footer-contact-link" to="/Anxietate#formular">
+                VREAU ȘI EU
+              </Link>
+            </button>
           </div>
         </section>
         <section className="anxietate3">
@@ -142,16 +147,20 @@ export default function Comunitate() {
             <div className="text-align-center">
               <div className="standard-text text-align-justify">
                 <p>
-                Prin intermediul unei întâlniri săptămânale în cadrul căreia vom dezbate subiecte precum relații, abundență, carieră, sănătate etc. Pe baza
-                  subiectului vom exprima în mod conștient, fiecare pe rând, afirmații pozitive, fără limite, și fără judecați. În acest mod ne vom educa
-                  mintea să gândească pozitiv și să fie prezentă. Treptat subcontientul nostru va învăta o altă perspectivă asupra lucrurilor, situațiilor,
-                  relațiilor și persoanelor din viața ta, modificând ușor dar sigur realitatea în care trăiești.
+                  Prin intermediul unei întâlniri săptămânale în cadrul căreia vom dezbate subiecte precum relații, abundență, carieră, sănătate etc. Pe baza
+                  subiectului vom exprima în mod conștient, fiecare pe rând, afirmații pozitive, fără limite, și fără judecați. În acest mod ne vom educa mintea
+                  să gândească pozitiv și să fie prezentă. Treptat subcontientul nostru va învăta o altă perspectivă asupra lucrurilor, situațiilor, relațiilor
+                  și persoanelor din viața ta, modificând ușor dar sigur realitatea în care trăiești.
                 </p>
               </div>
             </div>
 
             <div className="flex-center mt45px">
-              <button className="violet-btn">Vreau în comunitate</button>
+              <button className="violet-btn">
+                <Link className="footer-contact-link" to="/Anxietate#formular">
+                  Vreau în comunitate
+                </Link>
+              </button>
             </div>
           </div>
         </section>
@@ -201,6 +210,8 @@ export default function Comunitate() {
         <section className="anxietate9">
           <h2>Fii parte din Comunitatea Gandurilor Pozitive!</h2>
           <div className="contact-contact anxi-form-container">
+
+
           <div id="mlb2-3321802" className="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-3321802">
               <div className="ml-vertical-align-center">
                 <div className="subscribe-form ml-block-success" style={{ display: "none" }}>
@@ -208,12 +219,32 @@ export default function Comunitate() {
                     <p className="success-msg">Mulțumesc pentru înscriere, un mail a fost trimis către adresa menționată. Verifică și Spam-ul!</p>
                   </div>
                 </div>
-                <form className="ml-block-form" action="https://static.mailerlite.com/webforms/submit/k1x7l7" data-id="k1x7l7" data-code="k1x7l7" method="POST" target="_blank">
+                <form
+                  className="ml-block-form"
+                  action="https://static.mailerlite.com/webforms/submit/k1x7l7"
+                  data-id="k1x7l7"
+                  data-code="k1x7l7"
+                  method="POST"
+                  target="_blank"
+                >
                   <p className="signup-title">
                     Înscriete în lista pentru anunțuturi ca să primești instrucțiunile cu următori pași pentru a beneficia de acest program!
                   </p>
                   <div className="subscribe-form">
                     <div className="form-section">
+                      <div className="ml-field-group ml-field-name ml-validate-required">
+                        <input
+                          type="text"
+                          className="form-control"
+                          data-inputmask=""
+                          name="fields[name]"
+                          placeholder="Nume și prenume"
+                          autoComplete="name"
+                          spellCheck="false"
+                          autoCapitalize="off"
+                          autoCorrect="off"
+                        />
+                      </div>
                       <div className="form-group ml-field-email ml-validate-required ml-validate-email">
                         <input
                           type="email"
@@ -225,25 +256,29 @@ export default function Comunitate() {
                           autoCapitalize="off"
                           autoCorrect="off"
                         />
-                        <input type="hidden" name="ml-submit" value="1" />
+                      </div>
+                      <input type="hidden" name="ml-submit" value="1" />
 
-                        <div className="flex-center mt30px">
-                          <button type="submit" className="primary signup-button violet-btn">
-                            INREGISTRARE
-                          </button>
-                        </div>
+                      <div className="flex-center mt30px">
+                        <button type="submit" className="primary signup-button violet-btn">
+                          INREGISTRARE
+                        </button>
+                      </div>
 
-                        <div className="flex-center">
-                          <button disabled style={{ display: "none" }} type="button" className="loading violet-btn">
-                            SE TRIMITE...
-                          </button>
-                        </div>
+                      <div className="flex-center">
+                        <button disabled style={{ display: "none" }} type="button" className="loading violet-btn">
+                          SE TRIMITE...
+                        </button>
                       </div>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
+
+    
+           
+
           </div>
           <div className="text-align-center">
             <p>*Locul este confirmat după înregistrarea plății.</p>
