@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import classNames from 'classnames';
-import {  useState } from "react";
+import {  useState, useEffect } from "react";
 
 function Nav() {
 
@@ -8,10 +8,24 @@ function Nav() {
   const [phoneMenu,setPhoneMenu] = useState(false);
   const [hideDropDows,setHideDropDown] = useState(true);
   const [hideDropDows2,setHideDropDown2] = useState(true);
+
+  const [hideModal,setHideModal] = useState(true);
   
   function showPhoneMenu() {
       setPhoneMenu(!phoneMenu);
   }
+
+  function toggleModal() {
+    setHideModal(!hideModal);
+  }
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setHideModal(false);
+      console.log("active");
+    }, 10000);
+    return () => clearTimeout(timer);
+  }, []);
   
   return (
     <div className="App">
@@ -57,6 +71,18 @@ function Nav() {
       <div className="under-nav">
 
       </div>
+
+  <div className={classNames('mymodal-bg',{'activate': hideModal===false})}>
+      <div className="mymodal">
+          
+          <img src="comunitatea.jpg" alt="comunitate"/>
+          <button onClick={toggleModal}> <Link className="footer-contact-link" to="/Comunitate">
+          VIZITEAZĂ 
+                </Link></button>
+          <span className="mymodal-close" onClick={toggleModal}>X</span>
+      </div>
+  </div>
+
     </div>
   );
 }
