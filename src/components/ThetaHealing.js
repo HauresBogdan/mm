@@ -2,8 +2,7 @@ import Question from "./Question";
 import Footer from "./Footer";
 import "../sidepagecss/thetahealing.css";
 import PriceSection from "./PriceSection";
-import { InlineWidget } from "react-calendly";
-import { openPopupWidget } from "react-calendly";
+import { InlineWidget, openPopupWidget } from "react-calendly";
 
 function ThetaHealing({ url, prefill, pageSettings, utm }) {
   
@@ -70,7 +69,7 @@ function ThetaHealing({ url, prefill, pageSettings, utm }) {
             <h1 className="th-container">“Vindecarea trebuie realizată în prezent pentru a debloca viitorul”</h1>
           </div>
 
-          <PriceSection />
+          <PriceSection/>
 
           <InlineWidget url="https://calendly.com/mihaelamaiereantheta/terapie" />
           
