@@ -2,8 +2,7 @@ import Footer from "./Footer";
 import "../sidepagecss/thetahealing.css";
 import "../sidepagecss/curatare.css";
 // import PriceCard from "./PriceCard";
-import { InlineWidget } from "react-calendly";
-import { openPopupWidget } from "react-calendly";
+import { InlineWidget, openPopupWidget } from "react-calendly";
 
 function Medidate({ url, prefill, pageSettings, utm }) {
   url="https://calendly.com/mihaelamaiereantheta/medidate";

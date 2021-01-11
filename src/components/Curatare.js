@@ -4,8 +4,7 @@ import "../sidepagecss/curatare.css";
 // import PriceCard from "./PriceCard";
 import className from 'classnames';
 import {useState} from "react";
-import { InlineWidget } from "react-calendly";
-import { openPopupWidget } from "react-calendly";
+import { InlineWidget, openPopupWidget } from "react-calendly";
 
 function Curatare({ url, prefill, pageSettings, utm }) {
   const [isHovering,setIsHovering] = useState(false);

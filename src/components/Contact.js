@@ -6,16 +6,22 @@ import { useForm } from "react-hook-form";
 
 function Contact() {
   const { register, handleSubmit, errors } = useForm(); // initialize the hook
-  const onSubmit = (data) => {
+  const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+  const onSubmit = (e,data) => {
     
 
     fetch('/', {
       method: 'POST',
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(data).toString()
+      body: encode({ "form-name": "contact", ...data }),
+      // body: new URLSearchParams(data).toString()
     }).then(() => console.log('Form successfully submitted')).catch((error) =>
       alert(error));
-
+      e.preventDefault();
     console.log(data);
   };
 
@@ -28,7 +34,8 @@ function Contact() {
         <section className="thp-hero background-contact">
           <div className="contact-and-text th-container">
             <div className="contact-contact form-container">
-              <form name="contact" method="POST" data-netlify="true" netlify onSubmit={handleSubmit(onSubmit)}>
+              <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit(onSubmit)}>
+              <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="name">Nume</label>
                 <div className="contact-errors">
                   <p>{errors.name && "Nu ai introdus numele"}</p>
