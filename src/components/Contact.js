@@ -11,7 +11,7 @@ function Contact() {
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
         .join("&");
   }
-  const onSubmit = (e,data) => {
+  const onSubmit = (data) => {
     
 
     fetch('/', {
@@ -21,7 +21,7 @@ function Contact() {
       // body: new URLSearchParams(data).toString()
     }).then(() => console.log('Form successfully submitted')).catch((error) =>
       alert(error));
-      e.preventDefault();
+     
     console.log(data);
   };
 
