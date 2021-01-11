@@ -28,13 +28,11 @@
   </head>
   <body>
     <!-- A little help for the Netlify post-processing bots -->
-<form name="contact" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true" action='/' hidden>
-  <p class="hidden">
-    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-  </p>
+<form name="contact" netlify data-netlify-recaptcha="true" action='/' hidden>
   <input type="text" name="name" />
   <input type="email" name="email" />
   <textarea name="subject"></textarea>
+  <div className="display-block" data-netlify-recaptcha="true"></div>
 </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

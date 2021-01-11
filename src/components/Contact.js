@@ -76,23 +76,7 @@ function Contact() {
             </div>
             <div className="contact-img">
               <img src="thp-1.jpg" alt="mihaela maierean"/>
-            </div>
-
-            {/* <div className="contact-text">
-               <p>
-                Ai vreo întrebare care nu se găsește în{" "}
-                <Link className="faq-link" to="/ThetaHealing#questions">
-                  faq
-                </Link>
-                ?
-              </p>
-              <p>Nu ezita să mă contactezi.</p>
-              <p>Telefon: +4-0751 489 914</p>
-              <p>E-mail: healing.mihaelamaierean@gmail.com</p>
-              <p>
-                Vizitează-mă pe <a href="https://www.facebook.com/thetahealingcumihaelamaierean/">facebook.</a>{" "}
-              </p> 
-            </div> */}
+            </div>          
           </div>
         </section>
       </section>
