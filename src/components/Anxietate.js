@@ -69,7 +69,7 @@ export default function Anxietate() {
           </div>
         </section>
         <div className="banner-anxi2">
-          <h1>De ce sa particip!</h1>
+          <h1>De ce să particip</h1>
         </div>
         <section className="anxietate2">
           <div className="paragraphs-anxi2 standard-text">
@@ -116,18 +116,11 @@ export default function Anxietate() {
                 energetic dar și la nivel fizic, experimentând diverse dureri în corpul fizic.
               </p>
               <p>
-                Anul acesta am realizat că corpul meu este dependent de anumite substanțe chimice care se creează în momentul în care simt anxietate. Deși
-                încercam să vindec efectele anxietății, am înțeles că vindecarea trebuie să realizeze în momentul în care aceasta s-a creat pentru prima data.
-                Mai mult, trebuia să îmi învăț corpul și mintea cum se simte să trăiască fără anxietate și fără substanțele chimice care se eliminau și cum să
-                se concentreze asupra unui viitor care îmi aduce pace (având în vedere că anxietatea fiind cea care se asociază cu grijile legate de viitor).
+              Anul acesta am realizat că corpul meu este dependent de anumite substanțe chimice care se creează în momentul în care simt anxietate. Deși încercam să vindec efectele anxietății, am înțeles că vindecarea trebuie să realizeze în momentul în care aceasta s-a creat pentru prima dată. Mai mult, trebuia să îmi învăț corpul și mintea cum se simte să trăiască fără anxietate și fără substanțele chimice care se eliminau și cum să se concentreze asupra unui viitor care îmi aduce pace (având în vedere că anxietatea fiind cea care se asociază cu grijile legate de viitor).
               </p>
               <p>Am realizat toate acestea prin intermediul meditației ghidate combinate cu tehnică ThetaHealing.</p>
               <p>
-                În acest mod am creat o serie de meditații care să te ajute să vindeci momentul în care ai simțit anxietate pentru prima data, înțelegând că
-                aceasta este doar o senzație și un comportament pe care l-ai învățat și care poate fi vindecat, urmate apoi de descărcări în mintea
-                subconștientă a unor noi comportamente care să te învețe cum se simte și că este posibil să trăiești fără anxietate. Vom crea apoi o noua
-                realitate prin intermediul imaginației care să fie lipsită de anxietate și plină de liniște și bucurie. În final ne vom antrena să rămânem
-                concentrați asupra noii realități prin intermediul recunoștinței.
+              În acest mod am creat o serie de meditații care să te ajute să vindeci momentul în care ai simțit anxietate pentru prima dată, înțelegând că aceasta este doar o senzație și un comportament pe care l-ai învățat și care poate fi vindecat, urmate apoi de descărcări în mintea subconștientă a unor noi comportamente care să te învețe cum se simte și că este posibil să trăiești fără anxietate. Vom crea apoi o nouă realitate prin intermediul imaginației care să fie lipsită de anxietate și plină de liniște și bucurie. În final ne vom antrena să rămânem concentrați asupra noii realități prin intermediul recunoștinței.
               </p>
             </div>
 
@@ -138,7 +131,7 @@ export default function Anxietate() {
                   <p className="first-ul">Prin 5 meditații ghidate pe care le vei face în ritmul tău.</p>
                   <ul>
                     <li>
-                      <span>Meditație 1:</span> Curățarea energetică a corpului și spațiului în care locuieșți
+                      <span>Meditație 1:</span> Curățarea energetică a corpului și spațiului în care locuiești
                     </li>
                     <li>
                       <span>Meditație 2:</span> Vindecarea momentului în care a apărut anxietatea
@@ -191,10 +184,6 @@ export default function Anxietate() {
               showing="true"
             />
             <Question
-              question="Dacă lipsesc de la întâlnirea online voi primi înregistrarea meditației? "
-              answer="Fii fără griji! Dacă se întâmplă să lipsești de la întâlnirea online, îți voi da acces la înregistrare."
-            />
-            <Question
               question="Voi putea accesa întâlnirea online de pe computer/telefon/tabletă? "
               answer="Da, tot ce trebuie să faci este să te asiguri că ai o bună conexiune la internet."
             />
@@ -212,11 +201,11 @@ export default function Anxietate() {
               <div className="standard-text">
                 <p>
                   <span>EARLY BIRD</span>
-                  <strong> 77 RON</strong> până pe 22 noiembrie.
+                  <strong> 77 RON</strong> până pe 1 Martie.
                 </p>
                 <p>
                   <span>Investiția integrală</span>
-                  <strong> 99 RON</strong> până pe 27 noiembrie.
+                  <strong> 99 RON</strong> până pe 6 Martie.
                 </p>
                 <p>*Plata se face prin transfer bancar, detaliile le primești pe email după înregistrare.</p>
                 <p>
@@ -244,9 +233,9 @@ export default function Anxietate() {
                   method="POST"
                   target="_blank"
                 >
-                  <p className="signup-title">
+                  {/* <p className="signup-title">
                     Înscriete în lista pentru anunțuturi ca să primești instrucțiunile cu următori pași pentru a beneficia de acest program!
-                  </p>
+                  </p> */}
                   <div className="subscribe-form">
                     <div className="form-section">
                       <div className="ml-field-group ml-field-name ml-validate-required">
@@ -278,7 +267,7 @@ export default function Anxietate() {
 
                       <div className="flex-center mt30px">
                         <button type="submit" className="primary signup-button violet-btn">
-                          INREGISTRARE
+                          ÎNREGISTRARE
                         </button>
                       </div>
 

@@ -49,7 +49,7 @@ export default function Comunitate() {
           <p className="comunitate-subheader">Prin afirmați pozitive și schimbări de perspectivă</p>
         </section>
         <div className="banner-anxi2">
-          <h1>De ce să particip!</h1>
+          <h1>De ce să particip</h1>
         </div>
         <section className="anxietate2">
           <div className="paragraphs-anxi2 standard-text">
@@ -149,7 +149,7 @@ export default function Comunitate() {
                 <p>
                   Prin intermediul unei întâlniri săptămânale în cadrul căreia vom dezbate subiecte precum relații, abundență, carieră, sănătate etc. Pe baza
                   subiectului vom exprima în mod conștient, fiecare pe rând, afirmații pozitive, fără limite, și fără judecați. În acest mod ne vom educa mintea
-                  să gândească pozitiv și să fie prezentă. Treptat subcontientul nostru va învăta o altă perspectivă asupra lucrurilor, situațiilor, relațiilor
+                  să gândească pozitiv și să fie prezentă. Treptat subconștientul nostru va învăta o altă perspectivă asupra lucrurilor, situațiilor, relațiilor
                   și persoanelor din viața ta, modificând ușor dar sigur realitatea în care trăiești.
                 </p>
               </div>
@@ -174,10 +174,7 @@ export default function Comunitate() {
               answer="Întâlnirile se desfășoară în fiecare zi de Luni, de la ora 20:00, ora României. Locatie: Online"
               showing="true"
             />
-            <Question
-              question="Dacă lipsesc de la întâlnirea online voi primi înregistrarea meditației?"
-              answer="Fii fără griji! Dacă se întâmplă să lipsești de la întâlnirea online, îți voi da acces la înregistrare."
-            />
+           
             <Question
               question="Voi putea accesa întâlnirea online de pe computer/telefon/tabletă? "
               answer="Da, tot ce trebuie să faci este să te asiguri că ai o bună conexiune la internet."
@@ -227,9 +224,9 @@ export default function Comunitate() {
                   method="POST"
                   target="_blank"
                 >
-                  <p className="signup-title">
+                  {/* <p className="signup-title">
                     Înscriete în lista pentru anunțuturi ca să primești instrucțiunile cu următori pași pentru a beneficia de acest program!
-                  </p>
+                  </p> */}
                   <div className="subscribe-form">
                     <div className="form-section">
                       <div className="ml-field-group ml-field-name ml-validate-required">
@@ -250,7 +247,7 @@ export default function Comunitate() {
                           type="email"
                           name="fields[email]"
                           className="form-control signup-text"
-                          placeholder="Email address"
+                          placeholder="Email"
                           autoComplete="email"
                           spellCheck="false"
                           autoCapitalize="off"
@@ -261,7 +258,7 @@ export default function Comunitate() {
 
                       <div className="flex-center mt30px">
                         <button type="submit" className="primary signup-button violet-btn">
-                          INREGISTRARE
+                        ÎNREGISTRARE
                         </button>
                       </div>
 

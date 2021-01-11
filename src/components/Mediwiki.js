@@ -6,6 +6,7 @@ import CuratareEnergetica from "./CuratareEnergetica";
 import Cursuri from "./Cursuri";
 import { Link } from "react-router-dom";
 
+
 function Mediwiki() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isMouseOver, setIsMouseOver] = useState(false);
@@ -47,14 +48,14 @@ function Mediwiki() {
                 <span>Înlătura programe, frici și convingeri subconștiente instantaneu și definitiv.</span>
               </li>
               <li>
-                <span>Te vindeci pe plan emoțional și fizic.</span>
+                <span>Te vindeca pe plan emoțional și fizic.</span>
               </li>
               <li>
-                <span>Ajungi la rădăcina oricărei situații și o elimini într-un mod rapid și sigur.</span>
+                <span>Ajunge la rădăcina oricărei situații și o poți elimina într-un mod rapid și sigur.</span>
               </li>
-              <p>Aceste convingeri sunt adesea înrădăcinate din copilărie, transmise pe linia genealogică sau absorbite din conștiința de grup.</p>
+              <p>Aceste convingeri sunt adesea formate în copilărie, transmise pe linie genealogică sau absorbite din conștiința de grup.</p>
               <div className="flex-this-btn mt2">
-                <button className="violet-btn full-padding">Programează o sesiune</button>
+                <button className="violet-btn full-padding"><a className="footer-contact-link" href="https://calendly.com/mihaelamaiereantheta/terapie">Programează o sesiune</a> </button>
               </div>
             </div>
           </div>

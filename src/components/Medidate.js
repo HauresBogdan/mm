@@ -2,8 +2,18 @@ import Footer from "./Footer";
 import "../sidepagecss/thetahealing.css";
 import "../sidepagecss/curatare.css";
 // import PriceCard from "./PriceCard";
+import { InlineWidget } from "react-calendly";
+import { openPopupWidget } from "react-calendly";
 
-function Medidate() {
+function Medidate({ url, prefill, pageSettings, utm }) {
+  url="https://calendly.com/mihaelamaiereantheta/medidate";
+
+  function openCalendlyPopup() {
+    openPopupWidget({ url, prefill, pageSettings, utm });
+  } 
+
+ 
+
   return (
     <>
       <section className="th-sec">
@@ -25,7 +35,7 @@ function Medidate() {
               </div>
 
               <div className="center">
-                <button className="violet-btn mt1">Programează o ședință</button>
+                <button className="violet-btn mt1" onClick={openCalendlyPopup}>Programează o ședință</button>
               </div>
               <p>este GRATUIT</p>
             </div>
@@ -36,11 +46,11 @@ function Medidate() {
       <section className="thp-hero m-bimage">
         <div className="c-text">
           <h1>Beneficiile meditației:</h1>
-          <p> &#9633; reduce treptat stresul și întârzie îmbatrinirea;</p>
-          <p> &#9633; accentuează starea de pace și de relaxare;</p>
-          <p> &#9633; scade nivelul de anxietate și depresie;</p>
-          <p> &#9633; imbunătățește sistemul imunitar și nivelul evergiei;</p>
-          <p> &#9633; creste puterea de concentrare.</p>
+          <p> &#9633; reduce treptat stresul și întârzie îmbătrânirea</p>
+          <p> &#9633; accentuează starea de pace și de relaxare</p>
+          <p> &#9633; scade nivelul de anxietate și depresie</p>
+          <p> &#9633; îmbunătățește sistemul imunitar și nivelul energiei</p>
+          <p> &#9633; crește puterea de concentrare</p>
         </div>
       </section>
 
@@ -65,9 +75,9 @@ function Medidate() {
         </div>
 
         <div className="center">
-                <button className="violet-btn mt1">Mă înscriu!</button>
+                <button className="violet-btn mt1" onClick={openCalendlyPopup}>Mă înscriu</button>
         </div>
-
+        <InlineWidget url="https://calendly.com/mihaelamaiereantheta/medidate" />
         <p className="info-price-card">*Ședința durează aproximativ 30 de minute și se realizează pe Zoom. Este Gratuit!</p>
       </section>
 

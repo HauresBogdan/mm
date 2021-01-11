@@ -56,7 +56,7 @@ function Nav() {
             <div className={classNames('dropdown-content',{'hideDropdown': hideDropDows2})}  onMouseEnter={()=>setHideDropDown2(false)} onMouseLeave={()=>setHideDropDown2(true)}>
             <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Anxietate" })} to="/Anxietate" onClick={showPhoneMenu}>Eliberare de Anxietate</Link></p>
             <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Manifestare" })} to="/Manifestare" onClick={showPhoneMenu}>Sesiuni de Manifestare</Link></p>
-            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Comunitate" })} to="/Comunitate" onClick={showPhoneMenu}>Comunitatea găndurilor pozitive</Link></p> 
+            <p><Link className={classNames('nav-link2', { 'nav-location': location.pathname==="/Comunitate" })} to="/Comunitate" onClick={showPhoneMenu}>Comunitatea gândurilor pozitive</Link></p> 
           </div>
           </li>
           <li>

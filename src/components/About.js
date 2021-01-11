@@ -56,7 +56,7 @@ function openMenu() {
             <h2>Eu sunt Mihaela Maierean</h2>
             <p>De mai bine de 5 ani sunt terapeut practicant de terapie ThetaHealing®. Am absolvit cursul de Theta: Baza, Avansat, Săpare Profundă și cursul de Spiraloterapie.</p>
             <p>
-              Chiar dacă am îmbrațisat această formă de terapie cu inima deschisă, drumul nu a fost mereu unul lin iar ca într-o spirală care se rotește fară întrerupere, am fost ghidată mereu în a mă uita tot mai mult înauntrul meu pentru a înțelege
+              Chiar dacă am îmbrațisat această formă de terapie cu inima deschisă, drumul nu a fost mereu unul lin iar ca într-o spirală care se rotește fară întrerupere, am fost ghidată mereu în a mă uita tot mai mult înăuntrul meu pentru a înțelege
               și mai profund lecții pe care le credeam deja învățate.
             </p>
             <p>Pas cu pas am început să asimilez o altă formă de cunoaștere și de înțelegere a mea și a Universului.</p>
@@ -68,7 +68,7 @@ function openMenu() {
         </div>
       </section>
 
-      <p className="about-banner small-container">Astăzi pun timpul și experiența mea în serviciul tău.</p>
+      <p className="about-banner small-container">Astăzi pun timpul și experiența mea în serviciul tău</p>
 
       <section className="about2">
         <div className="flex-this-a2 container">
@@ -94,7 +94,7 @@ function openMenu() {
       <section className="about3">
         <div className="about-banner">
           <div className="container">
-            <p>Practicarea acestei terapii îmi oferă posibilitatea de a contribui la vindecarea și curățarea atât a ta, a mea cât și a planetei.</p>
+            <p>Practicarea acestei terapii îmi oferă posibilitatea de a contribui la vindecarea și curățarea atât a ta, a mea cât și a planetei</p>
           </div>
         </div>
         <div className="slider-parent container">

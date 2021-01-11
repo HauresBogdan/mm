@@ -56,7 +56,7 @@ export default function Manifestare() {
           <p> Eu sunt Mihaela și te voi ghida în procesul tău de manifestare al RELAȚIILOR </p>
         </section>
         <div className="banner-anxi2">
-          <h1>De ce să particip!</h1>
+          <h1>De ce să particip</h1>
         </div>
         <section className="anxietate2">
           <div className="paragraphs-anxi2 standard-text">
@@ -66,9 +66,9 @@ export default function Manifestare() {
               -  Vei învăța cum poți să îți muți atenția de la gânduri și sentimente de vibrație joasă (negative) la gânduri și sentimente de vibrație înaltă (pozitive); 
             </p>
             <p>- Vei descoperi care este povestea pe care ți-o spui zilnic despre relații și cum îți afectează ea realitatea;</p>
-            <p>- Vei face parte dintr-un grup de oameni care vor trece prin aceleași procese că și ține;</p>
+            <p>- Vei face parte dintr-un grup de oameni care vor trece prin aceleași procese ca și tine;</p>
             <p>- Vei deveni constant/ă în practicile de manifestare.</p>
-            <p>- Vei folosi recunoștință pentru a manifesta noua ta realitate.</p>
+            <p>- Vei folosi recunoștința pentru a manifesta noua ta realitate.</p>
           </div>
           <div className="flex-center mt30px">
             <button className="violet-btn"><Link className="footer-contact-link" to="/Anxietate#formular">
@@ -95,7 +95,7 @@ export default function Manifestare() {
             <div className="standard-text text-align-justify">
               <p>
               Programul Sesiuni de Manifestare Conștientă conține o serie de practici care îți permit să observi că toată puterea creatoare și de manifestare
-              se află în ține. Eu te vom ajuta să o identifici și să o folosești într-un mod conștient, accelerând astfel procesul de manifestare.
+              se află în tine. Eu te vom ajuta să o identifici și să o folosești într-un mod conștient, accelerând astfel procesul de manifestare.
               </p>
               <p>
               De cele mai multe ori vibrația noastră față de ceea ce ne dorim nu este direct proporțională cu energia obiectului/situației respective. Ce 
@@ -118,8 +118,8 @@ export default function Manifestare() {
                      întrebările tale. 
                   </p>
                   <p>
-                  După de fiecare sesiune de manifestare, îți voi trimite un scurt video cu detalii despre activitățile individuale. Fii fără griji, fiecare 
-                     activitate îți va luă maximum 10 minute, zilnic.
+                  După fiecare sesiune de manifestare, îți voi trimite un scurt video cu detalii despre activitățile individuale. Fii fără griji, fiecare 
+                     activitate îți va lua maximum 10 minute, zilnic.
                   </p>
                 </div>
               </div>
@@ -141,7 +141,7 @@ export default function Manifestare() {
 
             <div className="flex-center mt45px">
               <button className="violet-btn"><Link className="footer-contact-link" to="/Anxietate#formular">
-              Ma înscriu
+              Mă înscriu
                 </Link></button>
             </div>
           </div>
@@ -154,10 +154,6 @@ export default function Manifestare() {
               question="Când se desfășoară acest program?"
               answer="Sesiunile de Manifestare Conștientă încep pe 27 octombrie la ora 9 PM, ora României. Ne vom vedea în fiecare Marți și Joi de la 9 PM, ora României. Locație: Online"
               showing="true"
-            />
-            <Question
-              question="Dacă lipsesc de la întâlnirea online voi primi înregistrarea meditației? "
-              answer="Fii fără griji! Dacă se întâmplă să lipsești de la întâlnirea online, îți voi da acces la înregistrare."
             />
             <Question
               question="Voi putea accesa întâlnirea online de pe computer/telefon/tabletă?"
@@ -177,11 +173,11 @@ export default function Manifestare() {
               <div className="standard-text">
                 <p>
                   <span>EARLY BIRD</span>
-                  <strong> 176 RON</strong> până pe 18 octombrie.
+                  <strong> 176 RON</strong> până pe 18 Februarie.
                 </p>
                 <p>
                   <span>Investiția integrală </span>
-                  <strong> 256 RON</strong> până pe 23 octombrie.
+                  <strong> 256 RON</strong> până pe 23 Februarie.
                 </p>
                 <p>*Plata se face prin transfer bancar, detaliile le primești pe email după înregistrare.</p>
                 <p>
@@ -209,9 +205,9 @@ export default function Manifestare() {
                   method="POST"
                   target="_blank"
                 >
-                  <p className="signup-title">
+                  {/* <p className="signup-title">
                     Înscriete în lista pentru anunțuturi ca să primești instrucțiunile cu următori pași pentru a beneficia de acest program!
-                  </p>
+                  </p> */}
                   <div className="subscribe-form">
                     <div className="form-section">
                       <div className="ml-field-group ml-field-name ml-validate-required">
@@ -243,7 +239,7 @@ export default function Manifestare() {
 
                       <div className="flex-center mt30px">
                         <button type="submit" className="primary signup-button violet-btn">
-                          INREGISTRARE
+                          ÎNREGISTRARE
                         </button>
                       </div>
 

@@ -1,9 +1,26 @@
 import Footer from "./Footer";
 import "../sidepagecss/thetahealing.css";
 import "../sidepagecss/curatare.css";
-import PriceCard from "./PriceCard";
+// import PriceCard from "./PriceCard";
+import className from 'classnames';
+import {useState} from "react";
+import { InlineWidget } from "react-calendly";
+import { openPopupWidget } from "react-calendly";
 
-function Curatare() {
+function Curatare({ url, prefill, pageSettings, utm }) {
+  const [isHovering,setIsHovering] = useState(false);
+
+  url="https://calendly.com/mihaelamaiereantheta/curatareenergetica";
+
+    function openCalendlyPopup() {
+      openPopupWidget({ url, prefill, pageSettings, utm });
+    } 
+
+    
+   
+    
+  
+
   return (
     <>
       <section className="th-sec">
@@ -16,22 +33,25 @@ function Curatare() {
               <img className="icon2" src="icon3.png" alt="gld" />
               <h2>Vrei să știi cum se simte să fii conectat doar la energia ta?</h2>
               <div className="c-container">
-                <p>Prin curățare energetică se înțelege eliberarea și trimiterea în lumina Divină a energiilor de vibrație joasă.</p>
+                <p>Prin curățare energetică se înțelege eliberarea și trimiterea în lumină Divină a energiilor de vibrație joasă.</p>
                 <p>
                   Energiile de vibrație joasă pot fi experimentate atât în spațiile în care ne petrecem timpul (casă, birou etc.), dar cel mai frecvent le
-                  simțim în campul nostru energetic.
+                  simțim în câmpul nostru energetic.
                 </p>
                 <p>
                   O bună parte dintre aceste energii sunt preluate în viața de zi cu zi atunci când nu suntem centrați în momentul prezent. (ex: mergi pe
-                  stradă, auzi pe cineva care se cearta iar tu întegrezi tensiunea acelui eveniment într-un mod inconștient).
+                  stradă, auzi pe cineva care se ceartă iar tu integrezi tensiunea acelui eveniment într-un mod inconștient).
                 </p>
               </div>
 
               <div className="center">
-                <button className="violet-btn mt1">Programează o ședință</button>
+                {/* <button className="violet-btn mt1"><a className="footer-contact-link" href="https://calendly.com/mihaelamaiereantheta/curatareenergetica">Programează o ședință</a></button> */}
+                <button className="violet-btn mt1" onClick={openCalendlyPopup}>Programează o ședință</button>
+                
               </div>
             </div>
           </div>
+         
         </section>
       </section>
 
@@ -58,14 +78,23 @@ function Curatare() {
               În acest proces de curățare energetică eu voi facilita curațarea spațiilor și a persoanelor pe care tu le dorești. Apoi vom descărca o serie de
               sentimente pe care vrei să le experimentezi în acele locuri sau de la acele persoane.
             </p>
-            <p>Dupa finalizarea procesului vei avea un sentiment de eliberare și armonie. Vei simți o stare de confort și liniște oriunde te-ai afla.</p>
+            <p>După finalizarea procesului vei avea un sentiment de eliberare și armonie. Vei simți o stare de confort și liniște oriunde te-ai afla.</p>
           </div>
 
           <div className="c-price-card">
-            <PriceCard pach="CURĂȚARE ENERGETICĂ" bgcolor="#ddc32c" textcolor="black" time="40" nrsesions="1" price="99" />
+            {/* <PriceCard pach="CURĂȚARE ENERGETICĂ" bgcolor="#ddc32c" textcolor="black" time="40" nrsesions="1" price="99" /> */}
+            <div className={className("price-card", {'extra-shadow2': isHovering})} onMouseEnter={()=>setIsHovering(true)} onMouseLeave={()=>setIsHovering(false)}>
+       {/* <div className="price-card-shelf" style={{background:`${props.bgcolor}`,color:`${props.textcolor}`}}>{props.pach}</div> */}
+       {/* <div className="price-card-shelf">Aproximativ {props.time}min</div> */}
+       <div className="price-card-shelf">1 Sesiune</div>
+    
+       <div className="price-card-shelf">99 RON</div>
+       <div className="price-card-shelf"><button className="violet-btn"><a className="footer-contact-link" href="https://calendly.com/mihaelamaiereantheta/curatareenergetica">Cumpără</a></button></div>
+       
+      </div>
           </div>
         </div>
-
+        <InlineWidget url="https://calendly.com/mihaelamaiereantheta/curatareenergetica" />
         <p className="info-price-card">*Ședința durează 40 de minute și se realizează pe Zoom. Confidențialitatea este garantată!</p>
       </section>
 

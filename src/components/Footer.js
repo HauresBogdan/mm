@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="container">
           <div className="flex-this-footer">
             <div className="footer-left-flex">
-              <p>Ne găsiți și pe social media.</p>
-              <p>Vă așteptăm să da-ți un Like, Follow pe Facebook:</p>
+              <p>Urmărește-mă pe:</p>
+             
               <div>
               <a href="https://www.facebook.com/thetahealingcumihaelamaierean/">
                 <img src="facebook.svg" alt="facebook" />
@@ -22,25 +22,27 @@ export default function Footer() {
               </a>
 
               </div>
-              <p className="mt10px ">
+              {/* <p className="mt10px ">
                 <Link className="footer-contact-link" to="/Comunitate">
                 ✨ Comunitatea Gândurilor pozitive 
                 </Link>
-              </p>
+              </p> */}
              
             </div>
             <div className="footer-right-flex">
-              <p>Telefon</p>
+              {/* <p>Telefon</p>
               <div className="flex-this">
                 <img src="phone.svg" alt="tel" />
 
-                <p>004 0751 489 914</p>
-              </div>
+                <p>004 0751 489 914</p> 
+              </div> */}
+              
               <p>
                 <Link className="footer-contact-link" to="/Contact">
                   Contact
                 </Link>
               </p>
+              <p>healing.mihaelamaierean@gmail.com</p>
             </div>
           </div>
           <p className="copyright-text">©{currentYear} ThetaHealing cu Mihaela Maierean </p>

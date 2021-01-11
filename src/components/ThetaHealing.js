@@ -2,8 +2,16 @@ import Question from "./Question";
 import Footer from "./Footer";
 import "../sidepagecss/thetahealing.css";
 import PriceSection from "./PriceSection";
+import { InlineWidget } from "react-calendly";
+import { openPopupWidget } from "react-calendly";
 
-function ThetaHealing() {
+function ThetaHealing({ url, prefill, pageSettings, utm }) {
+  
+
+  url="https://calendly.com/mihaelamaiereantheta/terapie";
+  function openCalendlyPopup() {
+    openPopupWidget({ url, prefill, pageSettings, utm });
+  } 
   return (
     <>
       <div className="thetahealing ">
@@ -22,11 +30,11 @@ function ThetaHealing() {
                   probleme.
                 </p>
                 <div className="center">
-                  <button className="violet-btn mt1">Programează o ședință</button>
+                  <button className="violet-btn mt1" onClick={openCalendlyPopup}>Programează o ședință</button>
                 </div>
-              </div>             
+              </div>
             </div>
-          </section>         
+          </section>
 
           <section className="thp-hero2">
             <div className="flex-this-thp2 th-container">
@@ -36,36 +44,36 @@ function ThetaHealing() {
                   <li>Schimba convingeri limitative și elibera frici.</li>
                   <li>Descărca în subconstientul nostru noi sentimente și perspective.</li>
                   <li>Vindeca relațiile cu cei din jurul nostru , atât din prezent cât și din trecut.</li>
-                  <li>Curața atât pe noi cât și spațiile din jurul nostru de energii nedorite.</li>
+                  <li>Curăța atât pe noi cât și spațiile din jurul nostru de energii nedorite.</li>
                 </ul>
-              </div>                          
+              </div>
             </div>
           </section>
         </section>
 
-
-              <section className="thp-hero3">
-              <div className="center-long th-container">
-                <p>
-                  Pe parcursul ședinței de terapie vom lucra pe subiectul ales de tine, stabilindu-ne intenția de a ajunge împreună la fricile și convingerile
-                  de bază, care vor fi apoi eliminate din subcontientul tău și înlocuite cu alte programe eficiente și constructive.
-                </p>
-                <p>Vindecarea se realizează la nivelul subcontientului responsabil pentru 90% din gândurile, emoțiile și acțiunile noastre din fiecare zi.</p>
-                <p>
-                  Studiile arată că subcontientul nostru are puterea de a crea realitatea pe care noi o trăim zilnic pe baza informațiilor pe care le deține
-                  deja.
-                </p>
-                <p>Lucrul în Theta îți permite să îți reprogramezi subcontientul cu programe aprobate de tine reușind astfel să îți creezi o altă realitate.</p>
-              </div> 
-              </section>
+        <section className="thp-hero3">
+          <div className="center-long th-container">
+            <p>
+              Pe parcursul ședinței de terapie vom lucra pe subiectul ales de tine, stabilindu-ne intenția de a ajunge împreună la fricile și convingerile de
+              bază, care vor fi apoi eliminate din subcontientul tău și înlocuite cu alte programe eficiente și constructive.
+            </p>
+            <p>Vindecarea se realizează la nivelul subcontientului responsabil pentru 90% din gândurile, emoțiile și acțiunile noastre din fiecare zi.</p>
+            <p>
+              Studiile arată că subcontientul nostru are puterea de a crea realitatea pe care noi o trăim zilnic pe baza informațiilor pe care le deține deja.
+            </p>
+            <p>Lucrul în Theta îți permite să îți reprogramezi subconștientul cu programe aprobate de tine reușind astfel să îți creezi o altă realitate.</p>
+          </div>
+        </section>
 
         <section className="th-sec2 thp-hero4">
           <div className="th-banner">
-            <h1 className="th-container">“Vindecarea trebuie realizată în prezent pentru a debloca viitorul.”</h1>
+            <h1 className="th-container">“Vindecarea trebuie realizată în prezent pentru a debloca viitorul”</h1>
           </div>
 
           <PriceSection />
 
+          <InlineWidget url="https://calendly.com/mihaelamaiereantheta/terapie" />
+          
           <p className="info-price-card">*Ședința durează aproximativ o oră și se realizează pe Zoom. Confidențialitatea este garantată!</p>
         </section>
 
@@ -77,12 +85,13 @@ function ThetaHealing() {
             <Question
               question="Ce reprezintă Tehnica ThetaHealing®?"
               answer="Tehnica Theta reprezintă o formă de meditație sau de rugăciune îndreptată către Creator care le permite oamenilor să își elibereze convingerile și fricile care îi limitează în viața de zi cu zi. Această tehnică a fost descoperită de Vianna Stibal în anul 1995 în timpul unei sesiuni de vindecare a propriului său corp. Prin ThetaHealing® vindecarea se realizează la nivel fizic, 
-            psihic și spiritual în timp real și definitiv. De asemenea ea deschide noi posibilități în viața oricarei persoane care o practică.În esența ThetaHealing® este bazată pe un proces
-             de meditație prin care se accesează undele Theta ale creierului. În momentul în care creierul se află în această frecvență, Theta, ce accesăm defapt este subcontientul unde avem
+            psihic și spiritual în timp real și definitiv. De asemenea ea deschide noi posibilități în viața oricarei persoane care o practică. În esența ThetaHealing® este bazată pe un proces
+             de meditație prin care se accesează undele Theta ale creierului. În momentul în care creierul se află în această frecvență, Theta, ce accesăm defapt este subconștientul unde avem
               posibilitatea de a modifica programele care sunt înregistrate acolo. Fiecare dintre noi are capacitatea de a-și accesa undele Theta și o facem atunci când dormim, când medităm sau când realizăm o acțiune mecanică repetitivă ca atunci când conducem mașina.
 
 ThetaHealing® este o formă de terapie, nu o religie. De asemenea este recomandat a fi utilizată împreună cu medicina convențională."
-            showing="true"/>
+              showing="true"
+            />
             <Question
               question="Cum se desfășoară o sesiune de terapie ThetaHealing?"
               answer="Sesiunile de terapie ThetaHealing® funcționează asemănător unei sesiuni de psihoterapie. Pe baza subiectului ales de tine vom identifica împreună
@@ -94,22 +103,15 @@ ThetaHealing® este o formă de terapie, nu o religie. De asemenea este recomand
             />
             <Question
               question="De ce schimbăm programele din și în subcontient?"
-              answer="Imaginează-ți că subcontientul tău este o casetă pe care s-au înregistrat cantece foarte vechi. Dacă vrei să asculți alte cantece trebuie să le stergi
-               pe cele existente și să înregistrezi altele. Așa funcționează și subcontientul tău. El a stocat programe, frici și amintiri încă din momentul în care tu
-                te-ai născut și până acum și le rulează în fiecare clipă, neîncetat, chiar și atunci cand dormi. De asemenea subcontientul este responsabil de 90% din gândurile,
-                 emoțiile și acțiunile noastre din fiecare zi. Studiile arată că subcontientul nostru are puterea de a crea realitatea pe care noi o trăim zilnic pe baza informațiilor
-                  pe care le deținem deja. De aceea schimbăm programe din și în subcontient, pentru a avea posibilitatea de a-ți crea o alta realitate și a trăi o viață mai bună și mai
-                   liniștită."
+              answer="Imaginează-ți că subconștientul tău este o casetă pe care s-au înregistrat cântece foarte vechi. Dacă vrei să asculți alte cântece trebuie să le ștergi pe cele existente și să înregistrezi altele. Așa funcționează și subconștientul tău. El a stocat programe, frici și amintiri încă din momentul în care tu te-ai născut și până acum și le rulează în fiecare clipă, neîncetat, chiar și atunci când dormi. De asemenea subconștientul este responsabil de 90% din gândurile, emoțiile și acțiunile noastre din fiecare zi. Studiile arată că subconștientul nostru are puterea de a crea realitatea pe care noi o trăim zilnic pe baza informațiilor pe care le deținem deja. De aceea schimbăm programe din și în subconștient, pentru a avea posibilitatea de a-ți crea o alta realitate și a trăi o viață mai bună și mai liniștită."
             />
-             <Question
+            <Question
               question="Cât timp durează o ședință de terapie ThetaHealing?"
-              answer="O ședință de terapie durează aproximativ 60 de minute. Prima ședință face excepție și poate dura aproximativ 90 de minute deoarece ne vom aloca timp să ne 
-              cunoaștem, să te familiarizezi cu Theta și cu testul muscular."
+              answer="Înainte de ședința de terapie este important ca tu să decizi pe ce anume vrei să lucrezi și să eliberezi din subconștientul tău. De asemenea, este important să te asiguri că în timpul sesiunii de terapie te afli într-un spațiu în care nu vei fi deranjat și ca ai în apropierea ta apă cu care să te hidratezi."
             />
             <Question
               question="Ce este testul muscular?"
-              answer="Testul muscular este o metodă prin care tu poți să descoperi cu ajutorul corpului fizic dacă o convingere face sau nu parte din subcontientul tău. 
-              Testul muscular se va realiza înainte și după ce convingerile tale au fost schimbate."
+              answer="Depinde mereu de situația pe care vrei să o rezolvi și cât este de înrădăcinată în subconștientul tău. Din experiența mea unele situații se rezolvă într-o sesiune, pe când altele au nevoie de 3-4 întâlniri. Cu cât ești mai deschis să primești schimbarea cu atât vindecarea va fi mai accelerată."
             />
             <Question
               question="Cum mă pregătesc pentru o ședință de terapie ThetaHealing?"

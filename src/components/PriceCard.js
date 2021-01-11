@@ -12,7 +12,7 @@ export default function PriceCard(props) {
        <div className="price-card-shelf">Pachet {props.nrsesions} Ședinte</div>
     
        <div className="price-card-shelf">{props.price} RON</div>
-       <div className="price-card-shelf"><button className="violet-btn">Cumpără</button></div>
+       <div className="price-card-shelf"><button className="violet-btn"><a className="footer-contact-link" href={props.url}>Cumpără</a></button></div>
       </div>
     </>
   );

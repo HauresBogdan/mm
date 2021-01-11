@@ -28,7 +28,7 @@ function Contact() {
         <section className="thp-hero background-contact">
           <div className="contact-and-text th-container">
             <div className="contact-contact form-container">
-              <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit(onSubmit)}>
+              <form name="contact" method="POST" data-netlify="true" netlify onSubmit={handleSubmit(onSubmit)}>
                 <label htmlFor="name">Nume</label>
                 <div className="contact-errors">
                   <p>{errors.name && "Nu ai introdus numele"}</p>
@@ -58,7 +58,7 @@ function Contact() {
                 </Link>
                 ?
               </p>
-              <p>Nu ezita să mă contactezi.</p>             
+              <p>Contactează-mă:</p>             
               <p>E-mail: healing.mihaelamaierean@gmail.com</p>
               <p>
                 Vizitează-mă pe <a href="https://www.facebook.com/thetahealingcumihaelamaierean/">facebook.</a>{" "}
