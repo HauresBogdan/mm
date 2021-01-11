@@ -1329,3 +1329,7 @@ body {
 
 
 /* end modal */
+
+.hidden {
+  visibility: hidden;
+}
