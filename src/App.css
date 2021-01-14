@@ -1345,3 +1345,15 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 4em;
 }
+
+.success-contact h1 {
+  color: green;
+  padding-bottom:20px ;
+}
+
+.success-contact {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 100px;
+
+}
