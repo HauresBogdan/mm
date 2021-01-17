@@ -9,6 +9,7 @@ function ThetaHealing({ url, prefill, pageSettings, utm }) {
 
   url="https://calendly.com/mihaelamaiereantheta/terapie";
   function openCalendlyPopup() {
+    
     openPopupWidget({ url, prefill, pageSettings, utm });
   } 
   return (
@@ -71,7 +72,9 @@ function ThetaHealing({ url, prefill, pageSettings, utm }) {
 
           <PriceSection/>
 
-          <InlineWidget url="https://calendly.com/mihaelamaiereantheta/terapie" />
+          <InlineWidget url="https://calendly.com/mihaelamaiereantheta/terapie" styles={{
+  height: '1000px'
+}}/>
           
           <p className="info-price-card">*Ședința durează aproximativ o oră și se realizează pe Zoom. Confidențialitatea este garantată!</p>
         </section>

@@ -93,7 +93,9 @@ function Curatare({ url, prefill, pageSettings, utm }) {
       </div>
           </div>
         </div>
-        <InlineWidget url="https://calendly.com/mihaelamaiereantheta/curatareenergetica" />
+        <InlineWidget url="https://calendly.com/mihaelamaiereantheta/curatareenergetica" styles={{
+  height: '1000px'
+}}/>
         <p className="info-price-card">*Ședința durează 40 de minute și se realizează pe Zoom. Confidențialitatea este garantată!</p>
       </section>
 

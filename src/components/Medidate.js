@@ -10,8 +10,7 @@ function Medidate({ url, prefill, pageSettings, utm }) {
   function openCalendlyPopup() {
     openPopupWidget({ url, prefill, pageSettings, utm });
   } 
-
- 
+  
 
   return (
     <>
@@ -76,7 +75,9 @@ function Medidate({ url, prefill, pageSettings, utm }) {
         <div className="center">
                 <button className="violet-btn mt1" onClick={openCalendlyPopup}>Mă înscriu</button>
         </div>
-        <InlineWidget url="https://calendly.com/mihaelamaiereantheta/medidate" />
+        <InlineWidget url="https://calendly.com/mihaelamaiereantheta/medidate" styles={{
+  height: '1000px'
+}} />
         <p className="info-price-card">*Ședința durează aproximativ 30 de minute și se realizează pe Zoom. Este Gratuit!</p>
       </section>
 
